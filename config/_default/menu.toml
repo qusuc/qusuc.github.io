@@ -1,0 +1,32 @@
+# 顶部 / 侧栏导航。icon 只能用 themes/hugo-theme-stack/assets/icons/ 里已有的名字。
+[[main]]
+    identifier = "post"
+    name       = "技术"
+    url        = "/post/"
+    weight     = -100
+    [main.params]
+        icon = "categories"
+
+[[main]]
+    identifier = "essay"
+    name       = "随笔"
+    url        = "/essay/"
+    weight     = -90
+    [main.params]
+        icon = "messages"
+
+[[main]]
+    identifier = "about"
+    name       = "关于"
+    url        = "/about/"
+    weight     = -80
+    [main.params]
+        icon = "user"
+
+# 侧栏社交图标。不想要就整段删掉。
+[[social]]
+    identifier = "github"
+    name       = "GitHub"
+    url        = "https://github.com/qusuc"
+    [social.params]
+        icon = "brand-github"

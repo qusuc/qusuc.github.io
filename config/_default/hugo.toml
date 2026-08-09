@@ -1,0 +1,56 @@
+baseurl                = "https://qusuc.github.io/"
+locale                 = "zh"
+defaultContentLanguage = "zh"
+theme                  = "hugo-theme-stack"
+
+# ↓↓↓ 站点标题，改这里 ↓↓↓
+title = "Dong Qu"
+
+hasCJKLanguage    = true   # 中文摘要字数统计更准
+enableRobotsTXT   = true
+enableEmoji       = true
+summaryLength     = 60
+copyright         = "Dong Qu"
+
+# 首页每页文章数
+[pagination]
+    pagerSize = 10
+
+# 让 content/page/about/ 的网址是 /about/ 而不是 /page/about/
+[permalinks]
+    page = "/:slug/"
+
+[taxonomies]
+    category = "categories"
+    tag      = "tags"
+
+# 首页 / 归档同时聚合「技术」和「随笔」两个栏目
+[params]
+    mainSections = ["post", "essay"]
+
+[related]
+    includeNewer = true
+    threshold    = 60
+    toLower      = false
+
+    [[related.indices]]
+        name   = "tags"
+        weight = 100
+
+    [[related.indices]]
+        name   = "categories"
+        weight = 200
+
+[markup]
+    [markup.goldmark.renderer]
+        unsafe = true          # 允许 Markdown 里直接写 HTML
+    [markup.tableOfContents]
+        endLevel   = 4
+        ordered    = true
+        startLevel = 2
+    [markup.highlight]
+        noClasses = false      # 用 CSS 类高亮，跟随明暗主题
+        codeFences = true
+        guessSyntax = true
+        lineNumbersInTable = true
+        tabWidth = 4

@@ -1,0 +1,77 @@
+# 只写需要覆盖的项，其余继承 themes/hugo-theme-stack/config/_default/params.toml
+
+# 首页与归档聚合这两个栏目
+mainSections   = ["post", "essay"]
+rssFullContent = true
+
+[footer]
+    since      = 2026
+    customText = ""
+
+[dateFormat]
+    published   = "2006-01-02"
+    lastUpdated = "2006-01-02 15:04"
+
+[sidebar]
+    compact  = false
+    emoji    = "🎯"
+    # ↓↓↓ 侧栏一句话简介，改这里 ↓↓↓
+    subtitle = "技术笔记与生活随笔"
+    # 想放头像：把图片放到 assets/img/avatar.png，然后取消下面两行注释
+    # [sidebar.avatar]
+    #     local = true
+    #     src   = "img/avatar.png"
+
+[article]
+    headingAnchor = true
+    math          = false
+    toc           = true
+    readingTime   = true
+
+    [article.license]
+        enabled = true
+        default = "本文采用 CC BY-NC-SA 4.0 许可协议"
+
+# 侧栏小组件
+[widgets]
+    homepage = [
+        { type = "search" },
+        { type = "archives", params = { limit = 5 } },
+        { type = "categories", params = { limit = 10 } },
+        { type = "tag-cloud", params = { limit = 10 } },
+    ]
+    page = [
+        { type = "toc" },
+    ]
+
+[colorScheme]
+    toggle  = true
+    default = "auto"
+
+[opengraph.twitter]
+    site = ""
+    card = "summary_large_image"
+
+# ---------------------------------------------------------------
+# 评论：giscus（评论存到本仓库的 GitHub Discussions）
+# repoID / categoryID 需要去 https://giscus.app 生成后回填，
+# 填好之前 enabled 保持 false，站点照常可用。
+# ---------------------------------------------------------------
+[comments]
+    enabled  = false
+    provider = "giscus"
+
+    [comments.giscus]
+        repo             = "qusuc/qusuc.github.io"
+        repoID           = ""
+        category         = "Announcements"
+        categoryID       = ""
+        mapping          = "pathname"
+        lightTheme       = "light"
+        darkTheme        = "dark_dimmed"
+        reactionsEnabled = 1
+        emitMetadata     = 0
+        inputPosition    = "bottom"
+        lang             = "zh-CN"
+        strict           = 1
+        loading          = "lazy"
