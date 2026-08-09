@@ -1,0 +1,25 @@
+# 中文是主语言，占根路径 /；英文在 /en/ 下。
+# 文章按需翻译：index.md = 中文，同目录加 index.en.md 就有了英文版。
+# 没有 index.en.md 的文章不会出现在英文站，语言切换器会跳到英文首页。
+
+[zh]
+    label  = "中文"        # 语言切换下拉框里显示的名字
+    locale = "zh-CN"       # 用于 RSS / html lang 属性
+    weight = 1
+    title  = "Dong Qu"
+
+    [zh.params]
+        description = "技术笔记与生活随笔"
+        [zh.params.sidebar]
+            subtitle = "技术笔记与生活随笔"
+
+[en]
+    label  = "English"
+    locale = "en-US"
+    weight = 2
+    title  = "Dong Qu"
+
+    [en.params]
+        description = "Notes on testing, engineering, and everything else"
+        [en.params.sidebar]
+            subtitle = "Notes on testing, engineering, and everything else"

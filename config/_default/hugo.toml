@@ -1,10 +1,9 @@
-baseurl                = "https://qusuc.github.io/"
-locale                 = "zh"
-defaultContentLanguage = "zh"
-theme                  = "hugo-theme-stack"
+baseurl = "https://qusuc.github.io/"
+theme   = "hugo-theme-stack"
 
-# ↓↓↓ 站点标题，改这里 ↓↓↓
-title = "Dong Qu"
+# 多语言：中文在根路径，英文在 /en/。各语言的标题和简介见 languages.toml
+defaultContentLanguage         = "zh"
+defaultContentLanguageInSubdir = false
 
 hasCJKLanguage    = true   # 中文摘要字数统计更准
 enableRobotsTXT   = true

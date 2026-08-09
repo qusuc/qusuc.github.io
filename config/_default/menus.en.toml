@@ -1,0 +1,31 @@
+# English navigation. icon 只能用 themes/hugo-theme-stack/assets/icons/ 里已有的名字。
+[[main]]
+    identifier = "post"
+    name       = "Tech"
+    url        = "/en/post/"
+    weight     = -100
+    [main.params]
+        icon = "categories"
+
+[[main]]
+    identifier = "essay"
+    name       = "Essays"
+    url        = "/en/essay/"
+    weight     = -90
+    [main.params]
+        icon = "messages"
+
+[[main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/en/about/"
+    weight     = -80
+    [main.params]
+        icon = "user"
+
+[[social]]
+    identifier = "github"
+    name       = "GitHub"
+    url        = "https://github.com/qusuc"
+    [social.params]
+        icon = "brand-github"
