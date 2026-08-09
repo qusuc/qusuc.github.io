@@ -12,6 +12,8 @@
         description = "技术笔记与生活随笔"
         [zh.params.sidebar]
             subtitle = "技术笔记与生活随笔"
+        [zh.params.comments.giscus]
+            lang = "zh-CN"     # 评论框界面语言跟随站点语言
 
 [en]
     label  = "English"
@@ -23,3 +25,5 @@
         description = "Notes on testing, engineering, and everything else"
         [en.params.sidebar]
             subtitle = "Notes on testing, engineering, and everything else"
+        [en.params.comments.giscus]
+            lang = "en"

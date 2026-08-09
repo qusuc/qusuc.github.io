@@ -53,19 +53,20 @@ rssFullContent = true
     card = "summary_large_image"
 
 # ---------------------------------------------------------------
-# 评论：giscus（评论存到本仓库的 GitHub Discussions）
-# repoID / categoryID 需要去 https://giscus.app 生成后回填，
-# 填好之前 enabled 保持 false，站点照常可用。
+# 评论：giscus。评论存到本仓库的 GitHub Discussions（Announcements 分类）。
+# ID 取自 GitHub GraphQL API，换仓库才需要重取：
+#   gh api graphql -f query='{repository(owner:"qusuc",name:"qusuc.github.io"){
+#     id discussionCategories(first:20){nodes{id name}}}}'
 # ---------------------------------------------------------------
 [comments]
-    enabled  = false
+    enabled  = true
     provider = "giscus"
 
     [comments.giscus]
         repo             = "qusuc/qusuc.github.io"
-        repoID           = ""
+        repoID           = "R_kgDOTzXIaA"
         category         = "Announcements"
-        categoryID       = ""
+        categoryID       = "DIC_kwDOTzXIaM4DDAcX"
         mapping          = "pathname"
         lightTheme       = "light"
         darkTheme        = "dark_dimmed"
