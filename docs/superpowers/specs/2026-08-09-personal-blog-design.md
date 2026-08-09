@@ -84,10 +84,12 @@ push 到 `main` 后 Actions 自动构建并发布，约 1–2 分钟上线。配
 
 1. ~~安装 Hugo~~（已完成：0.164.0 extended）
 2. ~~`qusuc` 账号 gh 交互式登录~~（已完成，当前活动账号）
-3. 仓库 Settings → Pages → Source 选 **GitHub Actions**
-4. 仓库 Settings → Features 勾选 **Discussions**
-5. 安装 [giscus GitHub App](https://github.com/apps/giscus) 到该仓库
-6. 在 <https://giscus.app> 生成 `repoId` / `categoryId`，回填 `params.toml`
+3. ~~Pages 构建方式设为 GitHub Actions~~（已完成，经 API `build_type=workflow`）
+4. ~~开启仓库 Discussions~~（已完成，经 API）
+5. 安装 [giscus GitHub App](https://github.com/apps/giscus) 到该仓库 —— 待办，需网页操作
+6. 在 <https://giscus.app> 生成 `repoId` / `categoryId`，回填 `params.toml` 并把 `[comments] enabled` 改为 `true` —— 待办
+
+> 踩坑记录：仓库创建时 Pages 默认是 legacy（Jekyll 分支构建）模式，会把 README 渲染成首页、覆盖 Hugo 产物。必须先切成 `workflow` 再重跑一次 Hugo workflow。
 
 ## 9. 验收标准
 
