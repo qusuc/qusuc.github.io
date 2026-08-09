@@ -52,7 +52,7 @@ tags:
 ---
 ```
 
-标签风格：专有名词用英文原名（Hugo、GitHub Pages、Playwright），通用概念用中文（记录、自动化测试）。
+标签风格：专有名词用英文原名（Hugo、GitHub Pages、Playwright），通用概念用中文（记录、自动化测试）。preflight 会列出仓库里已有的标签；没有能复用的就新建，但同一篇里别同时放「自动化测试」和「回归测试」这种近义词。
 
 ### 4. 正文与配图处理
 
@@ -63,7 +63,7 @@ tags:
 | 首行有 `# 一级标题` | 提取成 `title`，**从正文删掉**（主题会另外渲染标题，留着重复） |
 | `![](./images/x.png)` 或 `images/x.png` | 图片拷进 bundle 根目录，引用改成 `![](x.png)` |
 | 图片在别的目录 | 一并拷过来，别留外部绝对路径 |
-| 没有配图 | 生成一张封面（下面的命令），否则首页卡片是纯文字 |
+| 任何情况 | `image:` 都单独做一张封面，**不要拿正文里的配图充当封面**——主题会在文章顶部再渲染一遍，同一张图出现两次 |
 
 生成封面（1200×630，深色渐变 + 等宽字，与站点风格一致）：
 
@@ -89,7 +89,10 @@ magick /tmp/cover.png -depth 8 -strip -quality 88 content/post/<slug>/cover.png
 退出码非 0 就修，别跳过。全绿后：
 
 ```bash
-git add . && git commit -m "post: <标题>" && env -u GITHUB_TOKEN git push origin main
+git add . && git commit -m "post: <标题>"
+# 切账号和 push 必须写在同一条命令里：本机 GITHUB_TOKEN 常驻，
+# 活动账号会被改回公司号，preflight 时的绿不代表此刻还是绿
+env -u GITHUB_TOKEN gh auth switch --user qusuc && env -u GITHUB_TOKEN git push origin main
 env -u GITHUB_TOKEN gh run watch $(env -u GITHUB_TOKEN gh run list -R qusuc/qusuc.github.io \
   --workflow=hugo.yml --limit 1 --json databaseId --jq '.[0].databaseId') \
   -R qusuc/qusuc.github.io --exit-status
@@ -114,7 +117,7 @@ curl -s -o /dev/null -w '%{http_code}\n' https://qusuc.github.io/post/<slug>/
 
 | 现象 | 原因与处理 |
 | --- | --- |
-| `push` 报 403 `denied to Dong-Qu_astg` | gh 活动账号被切走了（本机有三个账号）。`env -u GITHUB_TOKEN gh auth switch --user qusuc` 后重推。有 `GITHUB_TOKEN` 环境变量时必须加 `env -u`，否则 switch 不生效 |
+| `push` 报 403 `denied to Dong-Qu_astg` | 本机三个 GitHub 账号，且环境里常驻 `GITHUB_TOKEN`，活动账号会自己飘回公司号。所有 gh/git 命令都要加 `env -u GITHUB_TOKEN`，且 switch 要和 push 写在同一条命令里。仓库级 `credential.*.username` 绑定无效——gh 的凭据助手只服务当前活动账号 |
 | 构建成功但文章不出现 | ① `date` 是未来时间，Hugo 默认跳过未来文章 ② `draft` 还是 true ③ 目录名以 `_` 开头 |
 | 构建报 `failed to load image config: unexpected EOF` | 图片是坏的/占位的假文件。Stack 主题要读图片尺寸，必须是真图 |
 | 线上首页正常但内页全 404 | Pages 被切回 legacy 构建了。`gh api -X PUT repos/qusuc/qusuc.github.io/pages -f build_type=workflow` 再重跑 workflow |

@@ -54,7 +54,7 @@ elif [ $? -eq 2 ]; then
 else
     bad "date 是未来时间（$DATE_STR）→ Hugo 会静默跳过这篇，不会上线"
 fi
-CATS="$(awk '/^categories:/{f=1;next} f&&/^ *- /{gsub(/^ *- */,"");print} f&&!/^ *- /{exit}' <<<"$FM")"
+CATS="$(awk '/^categories:/{f=1;next} f&&/^ *- /{L=$0; sub(/^ *- */,"",L); print L; next} f{exit}' <<<"$FM")"
 if [ -z "$CATS" ]; then bad "categories 为空"
 else
     while read -r c; do
@@ -67,8 +67,8 @@ else
     done <<<"$CATS"
 fi
 # 标签复用检查：与仓库现有标签比对
-EXIST="$(grep -rlA0 '^tags:' content --include=index.md | grep -vxF "$POST" | xargs -I{} awk '/^tags:/{f=1;next} f&&/^ *- /{gsub(/^ *- */,"");print} f&&!/^ *- /{exit}' {} 2>/dev/null | sort -u)"
-NEW="$(awk '/^tags:/{f=1;next} f&&/^ *- /{gsub(/^ *- */,"");print} f&&!/^ *- /{exit}' <<<"$FM")"
+EXIST="$(grep -rl '^tags:' content --include='*.md' | grep -vxF "$POST" | xargs -I{} awk '/^tags:/{f=1;next} f&&/^ *- /{L=$0; sub(/^ *- */,"",L); print L; next} f{exit}' {} 2>/dev/null | sort -u)"
+NEW="$(awk '/^tags:/{f=1;next} f&&/^ *- /{L=$0; sub(/^ *- */,"",L); print L; next} f{exit}' <<<"$FM")"
 while read -r t; do
     [ -z "$t" ] && continue
     grep -qxF "$t" <<<"$EXIST" || warn "新标签「${t}」——确认不是已有标签的同义词"
