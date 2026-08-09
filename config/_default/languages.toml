@@ -6,7 +6,7 @@
     label  = "中文"        # 语言切换下拉框里显示的名字
     locale = "zh-CN"       # 用于 RSS / html lang 属性
     weight = 1
-    title  = "Dong Qu"
+    title  = "Dong's Notes"
 
     [zh.params]
         description = "技术笔记与生活随笔"
@@ -19,7 +19,7 @@
     label  = "English"
     locale = "en-US"
     weight = 2
-    title  = "Dong Qu"
+    title  = "Dong's Notes"
 
     [en.params]
         description = "Notes on testing, engineering, and everything else"
