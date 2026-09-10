@@ -2,7 +2,7 @@ baseurl = "https://qusuc.github.io/"
 theme   = "hugo-theme-stack"
 
 # 多语言：中文在根路径，英文在 /en/。各语言的标题和简介见 languages.toml
-defaultContentLanguage         = "zh"
+defaultContentLanguage         = "en"
 defaultContentLanguageInSubdir = false
 
 hasCJKLanguage    = true   # 中文摘要字数统计更准

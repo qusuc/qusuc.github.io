@@ -1,33 +1,33 @@
 ---
-title: "Workplace English 9: Upward and cross-team"
+title: "职场英语 9：对上与跨部门"
 date: 2026-09-10
 draft: false
 image: "cover.jpg"
 categories:
-    - Workplace English
+    - 英语学习
 tags:
-    - workplace English
+    - 职场英语
     - QA
-    - communication
-    - speaking
-description: "Reporting up, asking for people and time, escalating, refusing another team, and disagreeing with your manager."
+    - 沟通
+    - 口语
+description: "向上汇报、要人要时间、升级问题、拒绝不合理的请求，以及跟你的上级说不同意。"
 ---
 
-Part 9 of 9 in the Workplace English series. One real situation per article, in three layers: the vocabulary it runs on, sentences you can read aloud as they are, and a role-play prompt you can hand straight to an AI.
+这是「职场英语场景」系列的第 9 篇，共 9 篇。每篇只讲一个真实场景，分三层：这个场景跑在哪些词上、可以照着念的句子、一段能直接丢给 AI 的角色扮演 prompt。
 
-Written for people whose first language is not English but whose whole working day happens in it. **The explanations are in Chinese** — the English is what you say, the Chinese tells you when to reach for it.
+写给英语不是母语、却要用英语开完整个工作日的人。所有句子都是短句，能在会议中途扫一眼就念出来的那种。
 
-**Reporting up, asking for people and time, escalating, refusing another team, and disagreeing with your manager.**
+**向上汇报、要人要时间、升级问题、拒绝不合理的请求，以及跟你的上级说不同意。**
 
 {{< we-panel >}}
-**When to use it**
+**什么时候用**
 
 - 跟上级汇报或要资源
 - 一个问题在同级解决不了，要升级
 - 别的组要你临时接一批活
 - 你不同意上级的决定
 
-**How to hold yourself**
+**心态**
 
 - 对上汇报第一句永远是结论，不是过程。你的上级时间比你少，注意力比你短。
 - 要资源要说清代价：不是"我很忙"，是"这周多这件事，就少那件事，你选"。
@@ -35,9 +35,9 @@ Written for people whose first language is not English but whose whole working d
 - 不同意上级时，分清是判断分歧还是信息差。先补信息，再谈判断。
 {{< /we-panel >}}
 
-## 1 · Vocabulary
+## 一、术语
 
-| English | 中文 | 用法 · how to use it |
+| English | 中文 | 用法 |
 | --- | --- | --- |
 | **to escalate**<br><span class="we-ipa">/ˈɛskəˌleɪt/</span> | 升级、往上反映 | 中性词，不带告状意味。当面说 I'd like to escalate this 是专业做法。 |
 | **trade-off**<br><span class="we-ipa">/ˈtreɪdˌɔf/</span> | 取舍 | 要资源时的核心词：here's the trade-off = 这是取舍。 |
@@ -55,7 +55,7 @@ Written for people whose first language is not English but whose whole working d
 | **to push back**<br><span class="we-ipa">/ˈpʊʃ bæk/</span> | 提出异议 | 用法：I'd like to push back on the date. 直接、专业，不粗鲁。 |
 | **with respect**<br><span class="we-ipa">/wɪð rɪˈspɛkt/</span> | 恕我直言 | 谨慎使用。在英式职场里它常常是"我要反对了"的信号，语气会被听得比你想的重。 |
 
-## 2 · What to say
+## 二、场景句子
 
 ### Reporting up — headline first · 对上汇报：先给结论
 
@@ -165,11 +165,11 @@ Written for people whose first language is not English but whose whole working d
 
 <div class="we-say"><span class="we-en">Sorry — could you say that once more, a bit slower?</span><span class="we-cn">抱歉，能再说一遍吗，慢一点。</span></div>
 
-## 3 · Rehearse with an AI
+## 三、和 AI 对练
 
-Copy the whole block into ChatGPT, Claude or any chat model — the copy button is in the top-right corner. Replace what is in [brackets] with your own situation, then start speaking.
+把下面这段整块复制给 ChatGPT、Claude 或任何一个会聊天的模型——代码块右上角有复制按钮，点一下就是整段。把方括号里的内容换成你自己的处境，然后用英文开口。
 
-It plays the person across the table and does not go easy on you: it pushes back, applies pressure, and gives a lazy answer to a lazy question. After every turn it adds one line of Chinese naming the move it just made. When you close the conversation it drops character and reviews you.
+它会扮演对面那个人，不会放水：该反驳的反驳，该施压的施压。每一轮它都会附一行中文提示，告诉你对方刚用了什么招、什么答法能接住。你说结束之后，它会切出角色，用中文点评你哪里让步太早、漏了什么，并给出你本该说的两句英文。
 
 ```text {linenos=false}
 You are playing my manager, the head of engineering. I am the QA lead. We are
@@ -205,36 +205,36 @@ something concrete, and two English sentences I should have used.
 Wait for me to start.
 ```
 
-### A sample run
+### 示范对话
 
-Roughly what the prompt produces. The Chinese hints are for the learner, not part of the conversation.
+下面是这段 prompt 跑起来大概是什么样子。中文提示是给你看的，不是对话的一部分。
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">Two minutes — one good thing, one risk, one ask.</span><span class="we-cn">两分钟：一个好消息、一个风险、一个请求。</span><span class="we-hint">开场就给结构，很好。上级立刻知道要听多久。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">Two minutes — one good thing, one risk, one ask.</span><span class="we-cn">两分钟：一个好消息、一个风险、一个请求。</span><span class="we-hint">开场就给结构，很好。上级立刻知道要听多久。</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">Go.</span><span class="we-cn">说。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">Go.</span><span class="we-cn">说。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">5.17 is on track. The risk is 5.18 — we're one person short, and the platform team has just asked us to take their API regression as well.</span><span class="we-cn">5.17 进度正常。风险在 5.18：我们缺一个人，而平台组刚要求我们再接他们的 API 回归。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">5.17 is on track. The risk is 5.18 — we're one person short, and the platform team has just asked us to take their API regression as well.</span><span class="we-cn">5.17 进度正常。风险在 5.18：我们缺一个人，而平台组刚要求我们再接他们的 API 回归。</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">Can't you just prioritise? Everyone's short.</span><span class="we-cn">你不能排个优先级吗？大家都缺人。</span><span class="we-hint">把问题推回给你了。别抱怨，给一个具体的取舍。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">Can't you just prioritise? Everyone's short.</span><span class="we-cn">你不能排个优先级吗？大家都缺人。</span><span class="we-hint">把问题推回给你了。别抱怨，给一个具体的取舍。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">I can. Here's the trade-off — with the team we have, I can cover the call path or their API regression, not both. Which do you want first?</span><span class="we-cn">我可以。这是取舍：以现在的人力，我能覆盖呼叫路径或者他们的 API 回归，不能两个都要。你希望哪个先？</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">I can. Here's the trade-off — with the team we have, I can cover the call path or their API regression, not both. Which do you want first?</span><span class="we-cn">我可以。这是取舍：以现在的人力，我能覆盖呼叫路径或者他们的 API 回归，不能两个都要。你希望哪个先？</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">Both, ideally. The 5.18 date isn't moving.</span><span class="we-cn">理想情况是都要。5.18 的日期不会动。</span><span class="we-hint">日期不动往往背后有承诺。问一句为什么，可能拿到你没有的信息。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">Both, ideally. The 5.18 date isn't moving.</span><span class="we-cn">理想情况是都要。5.18 的日期不会动。</span><span class="we-hint">日期不动往往背后有承诺。问一句为什么，可能拿到你没有的信息。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">You may know something I don't — is there a commitment behind that date?</span><span class="we-cn">你可能知道我不知道的事：这个日期背后有什么承诺吗？</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">You may know something I don't — is there a commitment behind that date?</span><span class="we-cn">你可能知道我不知道的事：这个日期背后有什么承诺吗？</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">There is. We've told the carrier partner end of the quarter, and that's not something I can renegotiate.</span><span class="we-cn">有。我们跟运营商合作方承诺了季度末，这个我没法重谈。</span><span class="we-hint">拿到关键信息了。现在你的请求可以从"给我人"变成"保住这个承诺需要什么"。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">There is. We've told the carrier partner end of the quarter, and that's not something I can renegotiate.</span><span class="we-cn">有。我们跟运营商合作方承诺了季度末，这个我没法重谈。</span><span class="we-hint">拿到关键信息了。现在你的请求可以从"给我人"变成"保住这个承诺需要什么"。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">That changes my ask. To protect that commitment, I need one extra pair of hands for two weeks — not headcount, just borrowed.</span><span class="we-cn">这改变了我的请求。要保住那个承诺，我需要两周一个额外人手，不是编制，借调就行。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">That changes my ask. To protect that commitment, I need one extra pair of hands for two weeks — not headcount, just borrowed.</span><span class="we-cn">这改变了我的请求。要保住那个承诺，我需要两周一个额外人手，不是编制，借调就行。</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">Yeah, we can probably sort something out. Let me look at it.</span><span class="we-cn">嗯，应该能想想办法。我看看。</span><span class="we-hint">这是一个模糊的同意。散会前把它钉死，否则等于没拿到。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">Yeah, we can probably sort something out. Let me look at it.</span><span class="we-cn">嗯，应该能想想办法。我看看。</span><span class="we-hint">这是一个模糊的同意。散会前把它钉死，否则等于没拿到。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">Can we make that concrete? Who, and by when do I know? I'd like to plan the cycle around the answer.</span><span class="we-cn">能具体一点吗？谁，以及我什么时候能知道？我想按这个答复来排周期。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">Can we make that concrete? Who, and by when do I know? I'd like to plan the cycle around the answer.</span><span class="we-cn">能具体一点吗？谁，以及我什么时候能知道？我想按这个答复来排周期。</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">I'll come back to you by Thursday with a name.</span><span class="we-cn">周四之前我给你一个人名。</span><span class="we-hint">拿到具体承诺了。最后复述一遍，并说清楚拿不到的后果。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">I'll come back to you by Thursday with a name.</span><span class="we-cn">周四之前我给你一个人名。</span><span class="we-hint">拿到具体承诺了。最后复述一遍，并说清楚拿不到的后果。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">Thursday works. If there's no name by then, I'll come back and tell you what comes off the list.</span><span class="we-cn">周四可以。如果那时还没有人，我会回来告诉你要从清单上拿掉什么。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">Thursday works. If there's no name by then, I'll come back and tell you what comes off the list.</span><span class="we-cn">周四可以。如果那时还没有人，我会回来告诉你要从清单上拿掉什么。</span></div>
 
 ---
 
-The rest of the series is under [Workplace English](/categories/workplace-english/). Names, products and version numbers are invented; the situations and the terminology are real.
+系列其余各篇在 [英语学习](/zh/categories/英语学习/) 分类下。文中的人名、产品和版本号都是编的，场景和术语是真的。

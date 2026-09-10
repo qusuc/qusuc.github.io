@@ -1,33 +1,33 @@
 ---
-title: "Workplace English 1: Bug triage with developers"
+title: "职场英语 1：和开发争 bug 的定级与复现"
 date: 2026-09-10
 draft: false
 image: "cover.jpg"
 categories:
-    - Workplace English
+    - 英语学习
 tags:
-    - workplace English
+    - 职场英语
     - QA
-    - communication
-    - speaking
-description: "Raising a bug, being doubted, holding the severity under pressure, and writing down what was agreed."
+    - 沟通
+    - 口语
+description: "提 bug、被质疑、扛住降级压力、最后达成一致并记录下来的整套英文说法。"
 ---
 
-Part 1 of 9 in the Workplace English series. One real situation per article, in three layers: the vocabulary it runs on, sentences you can read aloud as they are, and a role-play prompt you can hand straight to an AI.
+这是「职场英语场景」系列的第 1 篇，共 9 篇。每篇只讲一个真实场景，分三层：这个场景跑在哪些词上、可以照着念的句子、一段能直接丢给 AI 的角色扮演 prompt。
 
-Written for people whose first language is not English but whose whole working day happens in it. **The explanations are in Chinese** — the English is what you say, the Chinese tells you when to reach for it.
+写给英语不是母语、却要用英语开完整个工作日的人。所有句子都是短句，能在会议中途扫一眼就念出来的那种。
 
-**Raising a bug, being doubted, holding the severity under pressure, and writing down what was agreed.**
+**提 bug、被质疑、扛住降级压力、最后达成一致并记录下来的整套英文说法。**
 
 {{< we-panel >}}
-**When to use it**
+**什么时候用**
 
 - 每天的 bug triage 会
 - 开发在 Jira 上回了 cannot reproduce 或 works as designed
 - 有人要把你报的 blocker 降成 minor，或推到下个版本
 - 发版前要把剩余 bug 过一遍
 
-**How to hold yourself**
+**心态**
 
 - 你的位置是描述事实，不是指控。先讲现象和影响，不讲谁的锅。
 - 定级的依据永远是用户影响和发生概率，不是修复难度。开发常拿难度换定级，不要接。
@@ -35,9 +35,9 @@ Written for people whose first language is not English but whose whole working d
 - 争不下来就升级，但要当着面说你要升级，不要背后去说。
 {{< /we-panel >}}
 
-## 1 · Vocabulary
+## 一、术语
 
-| English | 中文 | 用法 · how to use it |
+| English | 中文 | 用法 |
 | --- | --- | --- |
 | **severity**<br><span class="we-ipa">/səˈvɛrəti/</span> | 严重程度（现象有多糟） | 和 priority 是两回事。severity 说现象，priority 说什么时候修。开发混用时要拆开说。 |
 | **priority**<br><span class="we-ipa">/praɪˈɔrəti/</span> | 优先级（什么时候修） | — |
@@ -56,7 +56,7 @@ Written for people whose first language is not English but whose whole working d
 | **escalate**<br><span class="we-ipa">/ˈɛskəˌleɪt/</span> | 升级（往上反映） | 说出口前给对方一次机会：before I escalate this, can we... |
 | **acceptance criteria**<br><span class="we-ipa">/əkˈsɛptəns kraɪˈtɪriə/</span> | 验收标准 | 争 by design 时的武器：回到 story 的验收标准。 |
 
-## 2 · What to say
+## 二、场景句子
 
 ### Putting the bug on the table · 把问题摆出来
 
@@ -162,11 +162,11 @@ Written for people whose first language is not English but whose whole working d
 
 <div class="we-say"><span class="we-en">Give me a second — I want to get this right before we decide.</span><span class="we-cn">给我一点时间，决定之前我想弄清楚。</span><span class="we-tip">争取时间的同时把慢下来说成对结论负责，没人能反对。</span></div>
 
-## 3 · Rehearse with an AI
+## 三、和 AI 对练
 
-Copy the whole block into ChatGPT, Claude or any chat model — the copy button is in the top-right corner. Replace what is in [brackets] with your own situation, then start speaking.
+把下面这段整块复制给 ChatGPT、Claude 或任何一个会聊天的模型——代码块右上角有复制按钮，点一下就是整段。把方括号里的内容换成你自己的处境，然后用英文开口。
 
-It plays the person across the table and does not go easy on you: it pushes back, applies pressure, and gives a lazy answer to a lazy question. After every turn it adds one line of Chinese naming the move it just made. When you close the conversation it drops character and reviews you.
+它会扮演对面那个人，不会放水：该反驳的反驳，该施压的施压。每一轮它都会附一行中文提示，告诉你对方刚用了什么招、什么答法能接住。你说结束之后，它会切出角色，用中文点评你哪里让步太早、漏了什么，并给出你本该说的两句英文。
 
 ```text {linenos=false}
 You are playing a senior Android developer on the calling team. I am the
@@ -204,34 +204,34 @@ English sentences I should have used.
 Wait for me to raise the bug.
 ```
 
-### A sample run
+### 示范对话
 
-Roughly what the prompt produces. The Chinese hints are for the learner, not part of the conversation.
+下面是这段 prompt 跑起来大概是什么样子。中文提示是给你看的，不是对话的一部分。
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">Before we move on, I want to walk through one issue. On Android 14, when the call is answered from the lock screen, the audio stays muted for about two seconds.</span><span class="we-cn">往下走之前我想过一个问题。Android 14 上从锁屏接听时，音频会静音大约两秒。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">Before we move on, I want to walk through one issue. On Android 14, when the call is answered from the lock screen, the audio stays muted for about two seconds.</span><span class="we-cn">往下走之前我想过一个问题。Android 14 上从锁屏接听时，音频会静音大约两秒。</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">Two seconds? I've never seen that. Do you have steps?</span><span class="we-cn">两秒？我从没见过。你有复现步骤吗？</span><span class="we-hint">第一招：要复现步骤。别只说有，直接把条件和概率一起给出去。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">Two seconds? I've never seen that. Do you have steps?</span><span class="we-cn">两秒？我从没见过。你有复现步骤吗？</span><span class="we-hint">第一招：要复现步骤。别只说有，直接把条件和概率一起给出去。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">It's in the ticket with a screen recording. It happens about one in five times, and I reproduced it on two more devices.</span><span class="we-cn">单子里有，还带录屏。大概五次一次，我在另外两台设备上也复现了。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">It's in the ticket with a screen recording. It happens about one in five times, and I reproduced it on two more devices.</span><span class="we-cn">单子里有，还带录屏。大概五次一次，我在另外两台设备上也复现了。</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">One in five on lock screen answer. That's a pretty narrow path. Most users answer from the notification.</span><span class="we-cn">锁屏接听五分之一。这个路径挺窄的，大多数用户是从通知栏接的。</span><span class="we-hint">第二招：说成边界场景。用数据反驳，不要用感觉。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">One in five on lock screen answer. That's a pretty narrow path. Most users answer from the notification.</span><span class="we-cn">锁屏接听五分之一。这个路径挺窄的，大多数用户是从通知栏接的。</span><span class="we-hint">第二招：说成边界场景。用数据反驳，不要用感觉。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">I'd want to check that. And this is a regression — it worked in 5.16.</span><span class="we-cn">这个我想核实一下。而且这是个回归，5.16 上是好的。</span><span class="we-hint">regression 是最强的一张牌。打出来之后对方通常会换招。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">I'd want to check that. And this is a regression — it worked in 5.16.</span><span class="we-cn">这个我想核实一下。而且这是个回归，5.16 上是好的。</span><span class="we-hint">regression 是最强的一张牌。打出来之后对方通常会换招。</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">Are you sure? The audio session code didn't change in this release as far as I know.</span><span class="we-cn">你确定？据我所知这个版本音频会话的代码没动过。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">Are you sure? The audio session code didn't change in this release as far as I know.</span><span class="we-cn">你确定？据我所知这个版本音频会话的代码没动过。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">I'm not saying where the problem is. I'm saying it worked in 5.16 and doesn't in 5.17. Can we look at it together for five minutes?</span><span class="we-cn">我不是在说问题出在哪。我是说 5.16 好的，5.17 不好。我们花五分钟一起看一下？</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">I'm not saying where the problem is. I'm saying it worked in 5.16 and doesn't in 5.17. Can we look at it together for five minutes?</span><span class="we-cn">我不是在说问题出在哪。我是说 5.16 好的，5.17 不好。我们花五分钟一起看一下？</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">I can look, but honestly, we're four days out. Even if it's real, I'd want to defer it. The fix is in a risky place.</span><span class="we-cn">我可以看，但说实话只剩四天了。就算是真的，我也想推迟。改动的位置有风险。</span><span class="we-hint">第五招：推迟。注意他把修复风险和严重程度混在一起了，把它们拆开。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">I can look, but honestly, we're four days out. Even if it's real, I'd want to defer it. The fix is in a risky place.</span><span class="we-cn">我可以看，但说实话只剩四天了。就算是真的，我也想推迟。改动的位置有风险。</span><span class="we-hint">第五招：推迟。注意他把修复风险和严重程度混在一起了，把它们拆开。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">Those are two different questions. Whether it's risky to fix is your call. How bad it is for the user is mine.</span><span class="we-cn">这是两个问题。修起来风险多大是你判断，对用户有多糟是我判断。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">Those are two different questions. Whether it's risky to fix is your call. How bad it is for the user is mine.</span><span class="we-cn">这是两个问题。修起来风险多大是你判断，对用户有多糟是我判断。</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">Fair. What's your read on the user impact, then?</span><span class="we-cn">有道理。那你觉得用户影响是什么？</span><span class="we-hint">他让步了一步。抓住，把影响落到用户行为上，不要停在功能异常。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">Fair. What's your read on the user impact, then?</span><span class="we-cn">有道理。那你觉得用户影响是什么？</span><span class="we-hint">他让步了一步。抓住，把影响落到用户行为上，不要停在功能异常。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">The user can't tell the call connected. They hang up and call again. That's a support ticket every time.</span><span class="we-cn">用户不知道电话通了，会挂掉重打。每次都是一张客服工单。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">The user can't tell the call connected. They hang up and call again. That's a support ticket every time.</span><span class="we-cn">用户不知道电话通了，会挂掉重打。每次都是一张客服工单。</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">Okay. I'll take a look this afternoon. If it's not the audio session, I still want to defer.</span><span class="we-cn">好，我下午看一下。如果不是音频会话的问题，我还是想推迟。</span><span class="we-hint">收口的时候到了。复述结论，并且说清楚写进单子里。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">Okay. I'll take a look this afternoon. If it's not the audio session, I still want to defer.</span><span class="we-cn">好，我下午看一下。如果不是音频会话的问题，我还是想推迟。</span><span class="we-hint">收口的时候到了。复述结论，并且说清楚写进单子里。</span></div>
 
 ---
 
-The rest of the series is under [Workplace English](/categories/workplace-english/). Names, products and version numbers are invented; the situations and the terminology are real.
+系列其余各篇在 [英语学习](/zh/categories/英语学习/) 分类下。文中的人名、产品和版本号都是编的，场景和术语是真的。

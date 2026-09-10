@@ -1,33 +1,33 @@
 ---
-title: "Workplace English 6: Standup improvisation"
+title: "职场英语 6：站会即兴"
 date: 2026-09-10
 draft: false
 image: "cover.jpg"
 categories:
-    - Workplace English
+    - 英语学习
 tags:
-    - workplace English
+    - 职场英语
     - QA
-    - communication
-    - speaking
-description: "Two minutes with no preparation: a fixed skeleton, filler while you think, and how to say yesterday did not finish without sounding bad."
+    - 沟通
+    - 口语
+description: "每天那两分钟没有准备时间。一个骨架、几句填充、昨天没做完怎么说不难堪。"
 ---
 
-Part 6 of 9 in the Workplace English series. One real situation per article, in three layers: the vocabulary it runs on, sentences you can read aloud as they are, and a role-play prompt you can hand straight to an AI.
+这是「职场英语场景」系列的第 6 篇，共 9 篇。每篇只讲一个真实场景，分三层：这个场景跑在哪些词上、可以照着念的句子、一段能直接丢给 AI 的角色扮演 prompt。
 
-Written for people whose first language is not English but whose whole working day happens in it. **The explanations are in Chinese** — the English is what you say, the Chinese tells you when to reach for it.
+写给英语不是母语、却要用英语开完整个工作日的人。所有句子都是短句，能在会议中途扫一眼就念出来的那种。
 
-**Two minutes with no preparation: a fixed skeleton, filler while you think, and how to say yesterday did not finish without sounding bad.**
+**每天那两分钟没有准备时间。一个骨架、几句填充、昨天没做完怎么说不难堪。**
 
 {{< we-panel >}}
-**When to use it**
+**什么时候用**
 
 - 每天的站会
 - 临时被点名说进度
 - 走廊里被问一句现在做什么
 - 昨天的事没做完，今天要开口
 
-**How to hold yourself**
+**心态**
 
 - 站会不是汇报，是同步。别人只关心两件事：会不会挡到我，要不要帮你。
 - 骨架永远一样：昨天、今天、阻塞。三句话讲完就停，不要展开。
@@ -35,9 +35,9 @@ Written for people whose first language is not English but whose whole working d
 - 别在站会里解决问题。听到讨论要起来了，就说 take it offline。
 {{< /we-panel >}}
 
-## 1 · Vocabulary
+## 一、术语
 
-| English | 中文 | 用法 · how to use it |
+| English | 中文 | 用法 |
 | --- | --- | --- |
 | **standup**<br><span class="we-ipa">/ˈstændˌʌp/</span> | 站会 | — |
 | **blocker**<br><span class="we-ipa">/ˈblɑkər/</span> | 阻塞项 | 站会上唯一必须说清楚的东西。没有就说 no blockers，别沉默。 |
@@ -54,7 +54,7 @@ Written for people whose first language is not English but whose whole working d
 | **no blockers**<br><span class="we-ipa">/noʊ ˈblɑkərz/</span> | 没有阻塞 | — |
 | **hand over**<br><span class="we-ipa">/ˈhænd ˈoʊvər/</span> | 交接 | — |
 
-## 2 · What to say
+## 二、场景句子
 
 ### The three-sentence skeleton · 三句式骨架
 
@@ -154,11 +154,11 @@ Written for people whose first language is not English but whose whole working d
 
 <div class="we-say"><span class="we-en">I'll catch up with you after — I didn't follow all of that.</span><span class="we-cn">会后我找你，刚才那段我没全跟上。</span><span class="we-tip">诚实，而且把它挪到一对一的场合，那里你能听懂得多。</span></div>
 
-## 3 · Rehearse with an AI
+## 三、和 AI 对练
 
-Copy the whole block into ChatGPT, Claude or any chat model — the copy button is in the top-right corner. Replace what is in [brackets] with your own situation, then start speaking.
+把下面这段整块复制给 ChatGPT、Claude 或任何一个会聊天的模型——代码块右上角有复制按钮，点一下就是整段。把方括号里的内容换成你自己的处境，然后用英文开口。
 
-It plays the person across the table and does not go easy on you: it pushes back, applies pressure, and gives a lazy answer to a lazy question. After every turn it adds one line of Chinese naming the move it just made. When you close the conversation it drops character and reviews you.
+它会扮演对面那个人，不会放水：该反驳的反驳，该施压的施压。每一轮它都会附一行中文提示，告诉你对方刚用了什么招、什么答法能接住。你说结束之后，它会切出角色，用中文点评你哪里让步太早、漏了什么，并给出你本该说的两句英文。
 
 ```text {linenos=false}
 You are running a daily standup for a five-person QA team. I am one of the
@@ -190,34 +190,34 @@ short, and two English sentences I should have used.
 Start the standup.
 ```
 
-### A sample run
+### 示范对话
 
-Roughly what the prompt produces. The Chinese hints are for the learner, not part of the conversation.
+下面是这段 prompt 跑起来大概是什么样子。中文提示是给你看的，不是对话的一部分。
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">Morning everyone, let's keep it quick. Sam, you start.</span><span class="we-cn">早上好，我们快一点。Sam 先来。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">Morning everyone, let's keep it quick. Sam, you start.</span><span class="we-cn">早上好，我们快一点。Sam 先来。</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">Yesterday I finished the API suite for the new endpoints. Today I'm on the report. No blockers.</span><span class="we-cn">昨天我做完了新接口的 API 用例。今天写报告。没有阻塞。</span><span class="we-hint">这就是标准长度。注意他三句话就停了，你也照这个来。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">Yesterday I finished the API suite for the new endpoints. Today I'm on the report. No blockers.</span><span class="we-cn">昨天我做完了新接口的 API 用例。今天写报告。没有阻塞。</span><span class="we-hint">这就是标准长度。注意他三句话就停了，你也照这个来。</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">Thanks. Dong, over to you.</span><span class="we-cn">谢谢。Dong，到你了。</span><span class="we-hint">点你了。不要清嗓子铺垫，第一句直接说昨天。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">Thanks. Dong, over to you.</span><span class="we-cn">谢谢。Dong，到你了。</span><span class="we-hint">点你了。不要清嗓子铺垫，第一句直接说昨天。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">Yesterday I got about two thirds through the 5.17 regression before the test environment went down. It carries over to today.</span><span class="we-cn">昨天 5.17 的回归跑了大约三分之二，环境挂了。顺延到今天。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">Yesterday I got about two thirds through the 5.17 regression before the test environment went down. It carries over to today.</span><span class="we-cn">昨天 5.17 的回归跑了大约三分之二，环境挂了。顺延到今天。</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">The environment again? When do you think you'll be done?</span><span class="we-cn">又是环境？你觉得什么时候能做完？</span><span class="we-hint">要 ETA。给一个具体时间点，别说 soon。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">The environment again? When do you think you'll be done?</span><span class="we-cn">又是环境？你觉得什么时候能做完？</span><span class="we-hint">要 ETA。给一个具体时间点，别说 soon。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">I'm wrapping it up this morning. ETA before lunch.</span><span class="we-cn">今天上午收尾，预计午饭前。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">I'm wrapping it up this morning. ETA before lunch.</span><span class="we-cn">今天上午收尾，预计午饭前。</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">Okay. And is the environment fixed, or is that still a risk for everyone?</span><span class="we-cn">好。环境修好了吗？还是对大家都还有风险？</span><span class="we-hint">这是在问阻塞。说清楚是不是阻塞，以及要谁做什么。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">Okay. And is the environment fixed, or is that still a risk for everyone?</span><span class="we-cn">好。环境修好了吗？还是对大家都还有风险？</span><span class="we-hint">这是在问阻塞。说清楚是不是阻塞，以及要谁做什么。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">Just a heads-up — it came back at eight, but nobody knows why it went down. Not a blocker yet.</span><span class="we-cn">先说一声：八点恢复了，但没人知道为什么挂的。目前还不算阻塞。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">Just a heads-up — it came back at eight, but nobody knows why it went down. Not a blocker yet.</span><span class="we-cn">先说一声：八点恢复了，但没人知道为什么挂的。目前还不算阻塞。</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">Right, we should probably look at the container memory limits, because last month the same thing —</span><span class="we-cn">对，我们大概该看看容器的内存限制，上个月同样的事——</span><span class="we-hint">讨论跑偏了。这时候该你把它拉回来。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">Right, we should probably look at the container memory limits, because last month the same thing —</span><span class="we-cn">对，我们大概该看看容器的内存限制，上个月同样的事——</span><span class="we-hint">讨论跑偏了。这时候该你把它拉回来。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">That's a longer conversation — can we take it offline? I'll sync with you after.</span><span class="we-cn">这个要聊挺久，会后单聊行吗？我等下找你。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">That's a longer conversation — can we take it offline? I'll sync with you after.</span><span class="we-cn">这个要聊挺久，会后单聊行吗？我等下找你。</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">Fair enough. Anything else from you?</span><span class="we-cn">有道理。你还有别的吗？</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">Fair enough. Anything else from you?</span><span class="we-cn">有道理。你还有别的吗？</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">That's it from me.</span><span class="we-cn">我这边就这些。</span><span class="we-hint">明确交棒。站会的收尾就该这么短。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">That's it from me.</span><span class="we-cn">我这边就这些。</span><span class="we-hint">明确交棒。站会的收尾就该这么短。</span></div>
 
 ---
 
-The rest of the series is under [Workplace English](/categories/workplace-english/). Names, products and version numbers are invented; the situations and the terminology are real.
+系列其余各篇在 [英语学习](/zh/categories/英语学习/) 分类下。文中的人名、产品和版本号都是编的，场景和术语是真的。

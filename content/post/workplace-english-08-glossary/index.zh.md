@@ -1,33 +1,33 @@
 ---
-title: "Workplace English 8: QA and VoIP glossary"
+title: "职场英语 8：行业术语对照"
 date: 2026-09-10
 draft: false
 image: "cover.jpg"
 categories:
-    - Workplace English
+    - 英语学习
 tags:
-    - workplace English
+    - 职场英语
     - QA
-    - communication
-    - speaking
-description: "The terms that run under every other scenario, and the sentences that put them to work. You know the concepts; what you lose is the word."
+    - 沟通
+    - 口语
+description: "贯穿所有场景的术语表，加上把它们放进整句里的说法。你知道这些概念，缺的是当场想起那个词。"
 ---
 
-Part 8 of 9 in the Workplace English series. One real situation per article, in three layers: the vocabulary it runs on, sentences you can read aloud as they are, and a role-play prompt you can hand straight to an AI.
+这是「职场英语场景」系列的第 8 篇，共 9 篇。每篇只讲一个真实场景，分三层：这个场景跑在哪些词上、可以照着念的句子、一段能直接丢给 AI 的角色扮演 prompt。
 
-Written for people whose first language is not English but whose whole working day happens in it. **The explanations are in Chinese** — the English is what you say, the Chinese tells you when to reach for it.
+写给英语不是母语、却要用英语开完整个工作日的人。所有句子都是短句，能在会议中途扫一眼就念出来的那种。
 
-**The terms that run under every other scenario, and the sentences that put them to work. You know the concepts; what you lose is the word.**
+**贯穿所有场景的术语表，加上把它们放进整句里的说法。你知道这些概念，缺的是当场想起那个词。**
 
 {{< we-panel >}}
-**When to use it**
+**什么时候用**
 
 - 想不起某个概念的英文说法
 - 听到一个词不确定是不是自己以为的意思
 - 要跟外部或新同事解释一个流程
 - 上会前扫一遍当天会用到的词
 
-**How to hold yourself**
+**心态**
 
 - 你缺的不是知识，是检索速度。术语要能在半秒内取出来，靠的是整句练习，不是背单词。
 - 术语用错比不用更危险。宁可用一句白话解释，也不要用一个你不确定的词。
@@ -35,9 +35,9 @@ Written for people whose first language is not English but whose whole working d
 - 别人用错词的时候，温和地把正确用法说一遍就行，不用纠正他。
 {{< /we-panel >}}
 
-## 1 · Vocabulary
+## 一、术语
 
-| English | 中文 | 用法 · how to use it |
+| English | 中文 | 用法 |
 | --- | --- | --- |
 | **call setup**<br><span class="we-ipa">/ˈkɔl ˌsɛtʌp/</span> | 呼叫建立（从拨出到接通的过程） | 你最常测的一段路径。说 the call setup path 就是指这一整段。 |
 | **signalling**<br><span class="we-ipa">/ˈsɪɡnəlɪŋ/</span> | 信令 | 美式拼 signaling。指建立通话的控制消息，和媒体流分开说。 |
@@ -66,7 +66,7 @@ Written for people whose first language is not English but whose whole working d
 | **non-deterministic**<br><span class="we-ipa">/ˌnɑn dɪˌtɜrməˈnɪstɪk/</span> | 不确定性的（同样输入结果不同） | 解释 AI 功能为什么难测，一个词就够了。 |
 | **ground truth**<br><span class="we-ipa">/ˈɡraʊnd truθ/</span> | 标准答案、真值 | 说清楚你拿什么当对错的基准。评测 AI 功能时必用。 |
 
-## 2 · What to say
+## 二、场景句子
 
 ### Describing a call problem · 描述通话问题
 
@@ -174,11 +174,11 @@ Written for people whose first language is not English but whose whole working d
 
 <div class="we-say"><span class="we-en">New one for me — what does that mean in this context?</span><span class="we-cn">这个我没见过，在这个语境里是什么意思？</span><span class="we-tip">说 new one for me 很自然，比 I don't know 轻松。</span></div>
 
-## 3 · Rehearse with an AI
+## 三、和 AI 对练
 
-Copy the whole block into ChatGPT, Claude or any chat model — the copy button is in the top-right corner. Replace what is in [brackets] with your own situation, then start speaking.
+把下面这段整块复制给 ChatGPT、Claude 或任何一个会聊天的模型——代码块右上角有复制按钮，点一下就是整段。把方括号里的内容换成你自己的处境，然后用英文开口。
 
-It plays the person across the table and does not go easy on you: it pushes back, applies pressure, and gives a lazy answer to a lazy question. After every turn it adds one line of Chinese naming the move it just made. When you close the conversation it drops character and reviews you.
+它会扮演对面那个人，不会放水：该反驳的反驳，该施压的施压。每一轮它都会附一行中文提示，告诉你对方刚用了什么招、什么答法能接住。你说结束之后，它会切出角色，用中文点评你哪里让步太早、漏了什么，并给出你本该说的两句英文。
 
 ```text {linenos=false}
 You are running a rapid vocabulary drill with me. I am a QA lead who knows
@@ -213,34 +213,34 @@ meeting.
 Start with round one.
 ```
 
-### A sample run
+### 示范对话
 
-Roughly what the prompt produces. The Chinese hints are for the learner, not part of the conversation.
+下面是这段 prompt 跑起来大概是什么样子。中文提示是给你看的，不是对话的一部分。
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">Round one. Chinese to English — 单通,一方听不到对方。</span><span class="we-cn">第一轮。中译英：单通，一方听不到对方。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">Round one. Chinese to English — 单通,一方听不到对方。</span><span class="we-cn">第一轮。中译英：单通，一方听不到对方。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">One-way audio.</span><span class="we-cn">单通。</span><span class="we-hint">对了。这类有专名的现象，一定要用专名，不要描述。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">One-way audio.</span><span class="we-cn">单通。</span><span class="we-hint">对了。这类有专名的现象，一定要用专名，不要描述。</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">Good. Now use it in a sentence about something you actually tested.</span><span class="we-cn">很好。现在用它造一个你真的测过的句子。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">Good. Now use it in a sentence about something you actually tested.</span><span class="we-cn">很好。现在用它造一个你真的测过的句子。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">On the 5.17 build we get one-way audio when the call is answered from the lock screen — the callee hears nothing.</span><span class="we-cn">5.17 的包上，从锁屏接听时会出现单通，被叫听不到。</span><span class="we-hint">好句子：有版本、有条件、有现象。这就是可查的描述。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">On the 5.17 build we get one-way audio when the call is answered from the lock screen — the callee hears nothing.</span><span class="we-cn">5.17 的包上，从锁屏接听时会出现单通，被叫听不到。</span><span class="we-hint">好句子：有版本、有条件、有现象。这就是可查的描述。</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">Next. Two terms, close together — the test cases pass when I rerun them. Flaky, or intermittent?</span><span class="we-cn">下一个。两个近义词：用例重跑就过。是 flaky 还是 intermittent?</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">Next. Two terms, close together — the test cases pass when I rerun them. Flaky, or intermittent?</span><span class="we-cn">下一个。两个近义词：用例重跑就过。是 flaky 还是 intermittent?</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">Flaky. Intermittent is for the product behaviour, flaky is for the tests.</span><span class="we-cn">flaky。intermittent 说的是产品行为，flaky 说的是测试用例。</span><span class="we-hint">正确，而且你说出了区分标准，这比记住答案有用。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">Flaky. Intermittent is for the product behaviour, flaky is for the tests.</span><span class="we-cn">flaky。intermittent 说的是产品行为，flaky 说的是测试用例。</span><span class="we-hint">正确，而且你说出了区分标准，这比记住答案有用。</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">Right. Now — 灰度发布,前两天只放百分之五。</span><span class="we-cn">现在：灰度发布，前两天只放 5%。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">Right. Now — 灰度发布,前两天只放百分之五。</span><span class="we-cn">现在：灰度发布，前两天只放 5%。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">A staged rollout. Five percent for the first two days.</span><span class="we-cn">灰度发布，前两天 5%。</span><span class="we-hint">canary 也可以，通常指更小范围的先行验证。两个词都会用最好。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">A staged rollout. Five percent for the first two days.</span><span class="we-cn">灰度发布，前两天 5%。</span><span class="we-hint">canary 也可以，通常指更小范围的先行验证。两个词都会用最好。</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">Good. Here's a situation — the model invented a ticket number that doesn't exist in Jira. What do we call that, and why does it matter for how we test?</span><span class="we-cn">一个情境：模型编了一个 Jira 里不存在的单号。这叫什么，以及它对怎么测有什么影响？</span><span class="we-hint">两问。第二问才是重点，答出来才说明你真的会用这个词。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">Good. Here's a situation — the model invented a ticket number that doesn't exist in Jira. What do we call that, and why does it matter for how we test?</span><span class="we-cn">一个情境：模型编了一个 Jira 里不存在的单号。这叫什么，以及它对怎么测有什么影响？</span><span class="we-hint">两问。第二问才是重点，答出来才说明你真的会用这个词。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">That's a hallucination. It matters because the output is non-deterministic, so one clean run isn't evidence — we need a ground truth set.</span><span class="we-cn">那是幻觉。它之所以重要，是因为输出是不确定性的，跑一次干净不算证据，我们需要标准答案集。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">That's a hallucination. It matters because the output is non-deterministic, so one clean run isn't evidence — we need a ground truth set.</span><span class="we-cn">那是幻觉。它之所以重要，是因为输出是不确定性的，跑一次干净不算证据，我们需要标准答案集。</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">Strong answer. Next round — and by the way, we should soak test the pipeline overnight.</span><span class="we-cn">答得好。下一轮。顺便说，我们应该让流水线做个整晚的长稳测试。</span><span class="we-hint">他故意用错了：soak test 说的是产品长时间运行，不是流水线。你发现了吗？</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">Strong answer. Next round — and by the way, we should soak test the pipeline overnight.</span><span class="we-cn">答得好。下一轮。顺便说，我们应该让流水线做个整晚的长稳测试。</span><span class="we-hint">他故意用错了：soak test 说的是产品长时间运行，不是流水线。你发现了吗？</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">Small thing — a soak test is on the product running for a long time. For the pipeline you'd just say run it nightly.</span><span class="we-cn">一个小地方：soak test 说的是产品长时间运行。流水线的话就说 run it nightly。</span><span class="we-hint">纠正得很好：温和、给出正确用法、不评价对方。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">Small thing — a soak test is on the product running for a long time. For the pipeline you'd just say run it nightly.</span><span class="we-cn">一个小地方：soak test 说的是产品长时间运行。流水线的话就说 run it nightly。</span><span class="we-hint">纠正得很好：温和、给出正确用法、不评价对方。</span></div>
 
 ---
 
-The rest of the series is under [Workplace English](/categories/workplace-english/). Names, products and version numbers are invented; the situations and the terminology are real.
+系列其余各篇在 [英语学习](/zh/categories/英语学习/) 分类下。文中的人名、产品和版本号都是编的，场景和术语是真的。

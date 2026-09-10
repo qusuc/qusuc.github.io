@@ -1,20 +1,21 @@
 ---
-title: "关于"
+title: "About"
 slug: "about"
-# 导航菜单统一在 config/_default/menu.toml 里配置，这里不要再声明 menu，否则会重复
 ---
 
-这里写你自己：做什么的、在哪、对什么感兴趣、怎么联系你。
+A place for notes I'd want to find again.
 
-## 我是谁
+## Who
 
-一名测试 / QA 工程师，日常和 VoIP、自动化测试、质量流程打交道。
+A QA / test engineer. Day to day I work on VoIP, test automation, and the unglamorous parts of quality.
 
-## 这个博客写什么
+## What's here
 
-- **技术** —— 测试实践、工程踩坑、工具折腾
-- **随笔** —— 生活、读书、以及一些没想清楚的想法
+- **Tech** — testing practice, engineering notes, things that broke and why
+- **Essays** — life, books, and thoughts that haven't finished forming
 
-## 联系
+Chinese is the primary language here; only some posts have an English version.
+
+## Contact
 
 - GitHub: [@qusuc](https://github.com/qusuc)

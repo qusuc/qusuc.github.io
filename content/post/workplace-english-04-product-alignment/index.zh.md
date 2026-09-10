@@ -1,33 +1,33 @@
 ---
-title: "Workplace English 4: Product alignment"
+title: "职场英语 4：和产品对 spec、划测试范围"
 date: 2026-09-10
 draft: false
 image: "cover.jpg"
 categories:
-    - Workplace English
+    - 英语学习
 tags:
-    - workplace English
+    - 职场英语
     - QA
-    - communication
-    - speaking
-description: "Playing back what you understood, asking what the spec does not say, pushing back on an untestable requirement, and leaving with acceptance criteria."
+    - 沟通
+    - 口语
+description: "复述你的理解、问出 spec 没写的、把不可测的需求推回去、最后把验收标准定下来。"
 ---
 
-Part 4 of 9 in the Workplace English series. One real situation per article, in three layers: the vocabulary it runs on, sentences you can read aloud as they are, and a role-play prompt you can hand straight to an AI.
+这是「职场英语场景」系列的第 4 篇，共 9 篇。每篇只讲一个真实场景，分三层：这个场景跑在哪些词上、可以照着念的句子、一段能直接丢给 AI 的角色扮演 prompt。
 
-Written for people whose first language is not English but whose whole working day happens in it. **The explanations are in Chinese** — the English is what you say, the Chinese tells you when to reach for it.
+写给英语不是母语、却要用英语开完整个工作日的人。所有句子都是短句，能在会议中途扫一眼就念出来的那种。
 
-**Playing back what you understood, asking what the spec does not say, pushing back on an untestable requirement, and leaving with acceptance criteria.**
+**复述你的理解、问出 spec 没写的、把不可测的需求推回去、最后把验收标准定下来。**
 
 {{< we-panel >}}
-**When to use it**
+**什么时候用**
 
 - Productboard 上来了新 spec，要划测试范围
 - 需求评审会
 - 开发到一半发现 spec 有洞
 - 要跟产品确认某个行为是不是预期
 
-**How to hold yourself**
+**心态**
 
 - 你的价值不是挑刺，是在开发动手之前把洞找出来。这个定位说出来，对方会配合得多。
 - 先复述你的理解，再提问题。复述能暴露 80% 的误解，而且不会让人有防御。
@@ -35,9 +35,9 @@ Written for people whose first language is not English but whose whole working d
 - 不可测的需求不要接。接了就是你的锅。要一个可判断的标准，不是形容词。
 {{< /we-panel >}}
 
-## 1 · Vocabulary
+## 一、术语
 
-| English | 中文 | 用法 · how to use it |
+| English | 中文 | 用法 |
 | --- | --- | --- |
 | **spec / specification**<br><span class="we-ipa">/spɛk/ · /ˌspɛsəfɪˈkeɪʃən/</span> | 规格说明 | — |
 | **requirement**<br><span class="we-ipa">/rɪˈkwaɪrmənt/</span> | 需求 | — |
@@ -55,7 +55,7 @@ Written for people whose first language is not English but whose whole working d
 | **rollout / timeframe**<br><span class="we-ipa">/ˈroʊlˌaʊt/ · /ˈtaɪmˌfreɪm/</span> | 上线节奏 / 时间窗 | Productboard 上的 timeframe 字段就是这个，问它能知道你什么时候要准备好。 |
 | **to align on**<br><span class="we-ipa">/əˈlaɪn/</span> | 就某事对齐 | 开场和收尾都能用：I want us to align on scope today. |
 
-## 2 · What to say
+## 二、场景句子
 
 ### Open by playing it back · 先复述你的理解
 
@@ -159,11 +159,11 @@ Written for people whose first language is not English but whose whole working d
 
 <div class="we-say"><span class="we-en">I'll re-read the spec after this and send you my questions in writing.</span><span class="we-cn">会后我再读一遍 spec，把问题书面发给你。</span><span class="we-tip">兜底。当场没跟上就不要硬撑，书面追问反而更清楚。</span></div>
 
-## 3 · Rehearse with an AI
+## 三、和 AI 对练
 
-Copy the whole block into ChatGPT, Claude or any chat model — the copy button is in the top-right corner. Replace what is in [brackets] with your own situation, then start speaking.
+把下面这段整块复制给 ChatGPT、Claude 或任何一个会聊天的模型——代码块右上角有复制按钮，点一下就是整段。把方括号里的内容换成你自己的处境，然后用英文开口。
 
-It plays the person across the table and does not go easy on you: it pushes back, applies pressure, and gives a lazy answer to a lazy question. After every turn it adds one line of Chinese naming the move it just made. When you close the conversation it drops character and reviews you.
+它会扮演对面那个人，不会放水：该反驳的反驳，该施压的施压。每一轮它都会附一行中文提示，告诉你对方刚用了什么招、什么答法能接住。你说结束之后，它会切出角色，用中文点评你哪里让步太早、漏了什么，并给出你本该说的两句英文。
 
 ```text {linenos=false}
 You are playing a product manager presenting a new feature to me. I am the QA
@@ -200,34 +200,34 @@ criteria, and two English sentences I should have used.
 Start by presenting the feature to me.
 ```
 
-### A sample run
+### 示范对话
 
-Roughly what the prompt produces. The Chinese hints are for the learner, not part of the conversation.
+下面是这段 prompt 跑起来大概是什么样子。中文提示是给你看的，不是对话的一部分。
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">So this is the new incoming-call banner. User taps it, the call screen opens, call is answered. Should feel fast and smooth.</span><span class="we-cn">这是新的来电横幅。用户点它，通话页打开，电话接通。应该感觉又快又流畅。</span><span class="we-hint">只讲了主流程，还用了两个形容词。先复述，再挑其中一个形容词落地。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">So this is the new incoming-call banner. User taps it, the call screen opens, call is answered. Should feel fast and smooth.</span><span class="we-cn">这是新的来电横幅。用户点它，通话页打开，电话接通。应该感觉又快又流畅。</span><span class="we-hint">只讲了主流程，还用了两个形容词。先复述，再挑其中一个形容词落地。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">Let me play back what I understood, and you correct me. The user taps the banner, we open the call screen, and the call is answered at that moment. Is that right?</span><span class="we-cn">我把理解复述一遍，你纠正我。用户点横幅，我们打开通话页，电话在那一刻接通。对吗？</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">Let me play back what I understood, and you correct me. The user taps the banner, we open the call screen, and the call is answered at that moment. Is that right?</span><span class="we-cn">我把理解复述一遍，你纠正我。用户点横幅，我们打开通话页，电话在那一刻接通。对吗？</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">Exactly. Simple.</span><span class="we-cn">正是。很简单。</span><span class="we-hint">说 simple 的时候通常最不简单。开始问 spec 没写的。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">Exactly. Simple.</span><span class="we-cn">正是。很简单。</span><span class="we-hint">说 simple 的时候通常最不简单。开始问 spec 没写的。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">The spec covers the happy path. What should the user see if the network drops halfway through?</span><span class="we-cn">spec 写了主流程。如果中途断网，用户应该看到什么？</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">The spec covers the happy path. What should the user see if the network drops halfway through?</span><span class="we-cn">spec 写了主流程。如果中途断网，用户应该看到什么？</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">Hm. I suppose it just... fails? We'd show the normal error, whatever that is today.</span><span class="we-cn">嗯，我猜就是失败吧？显示现在的普通错误，不管那是什么。</span><span class="we-hint">未定义。别放过，让他确认是不是就用现有的，并记下来。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">Hm. I suppose it just... fails? We'd show the normal error, whatever that is today.</span><span class="we-cn">嗯，我猜就是失败吧？显示现在的普通错误，不管那是什么。</span><span class="we-hint">未定义。别放过，让他确认是不是就用现有的，并记下来。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">I want to be precise here — is the existing error screen the intended behaviour, or is it just what happens today?</span><span class="we-cn">这里我想准确一点：现有的错误页是预期行为，还是只是现状？</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">I want to be precise here — is the existing error screen the intended behaviour, or is it just what happens today?</span><span class="we-cn">这里我想准确一点：现有的错误页是预期行为，还是只是现状？</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">Fair. Let's say intended for now. Oh — and it should work in group calls too, obviously.</span><span class="we-cn">有道理。暂时就当是预期吧。哦，对了，群通话里当然也要能用。</span><span class="we-hint">范围悄悄扩大了。抓住它，并说清楚扩大范围要拿掉什么。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">Fair. Let's say intended for now. Oh — and it should work in group calls too, obviously.</span><span class="we-cn">有道理。暂时就当是预期吧。哦，对了，群通话里当然也要能用。</span><span class="we-hint">范围悄悄扩大了。抓住它，并说清楚扩大范围要拿掉什么。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">That's new to me. Group calls are a separate story. If the scope grows, I'll need to tell you what comes off the list.</span><span class="we-cn">这个我第一次听到。群通话是另一个故事。如果范围变大，我需要告诉你哪些要从清单上拿掉。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">That's new to me. Group calls are a separate story. If the scope grows, I'll need to tell you what comes off the list.</span><span class="we-cn">这个我第一次听到。群通话是另一个故事。如果范围变大，我需要告诉你哪些要从清单上拿掉。</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">Okay, leave group calls out for now. But the speed matters — it really has to feel fast.</span><span class="we-cn">好吧，群通话先不算。但速度很重要，一定要感觉快。</span><span class="we-hint">又回到形容词了。直接提一个数字，把基准握在自己手里。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">Okay, leave group calls out for now. But the speed matters — it really has to feel fast.</span><span class="we-cn">好吧，群通话先不算。但速度很重要，一定要感觉快。</span><span class="we-hint">又回到形容词了。直接提一个数字，把基准握在自己手里。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">As written, fast isn't testable. Give me a number and I can verify it — under two seconds on a normal network?</span><span class="we-cn">按现在的写法，"快"没法测。给我一个数字我就能验证：正常网络下两秒以内？</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">As written, fast isn't testable. Give me a number and I can verify it — under two seconds on a normal network?</span><span class="we-cn">按现在的写法，"快"没法测。给我一个数字我就能验证：正常网络下两秒以内？</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">Two seconds sounds right. Under two on normal network, let's say four on a weak one.</span><span class="we-cn">两秒听起来对。正常网络两秒内，弱网就四秒吧。</span><span class="we-hint">拿到数字了。趁热把验收标准写下来，别等会后。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">Two seconds sounds right. Under two on normal network, let's say four on a weak one.</span><span class="we-cn">两秒听起来对。正常网络两秒内，弱网就四秒吧。</span><span class="we-hint">拿到数字了。趁热把验收标准写下来，别等会后。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">Before we finish — can we write the acceptance criteria together? Three lines is enough. I'll put them in the story and tag you.</span><span class="we-cn">结束之前，我们一起把验收标准写出来？三行就够。我写到 story 里并 @ 你。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">Before we finish — can we write the acceptance criteria together? Three lines is enough. I'll put them in the story and tag you.</span><span class="we-cn">结束之前，我们一起把验收标准写出来？三行就够。我写到 story 里并 @ 你。</span></div>
 
 ---
 
-The rest of the series is under [Workplace English](/categories/workplace-english/). Names, products and version numbers are invented; the situations and the terminology are real.
+系列其余各篇在 [英语学习](/zh/categories/英语学习/) 分类下。文中的人名、产品和版本号都是编的，场景和术语是真的。

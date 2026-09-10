@@ -1,8 +1,17 @@
-# 顶部 / 侧栏导航。icon 只能用 themes/hugo-theme-stack/assets/icons/ 里已有的名字。
+# 中文站在 /zh/ 下,所以每个链接都带前缀。
+# icon 只能用 themes/hugo-theme-stack/assets/icons/ 里已有的名字。
+[[main]]
+    identifier = "english"
+    name       = "英语学习"
+    url        = "/zh/categories/英语学习/"
+    weight     = -110
+    [main.params]
+        icon = "language"
+
 [[main]]
     identifier = "post"
     name       = "技术"
-    url        = "/post/"
+    url        = "/zh/post/"
     weight     = -100
     [main.params]
         icon = "categories"
@@ -10,7 +19,7 @@
 [[main]]
     identifier = "essay"
     name       = "随笔"
-    url        = "/essay/"
+    url        = "/zh/essay/"
     weight     = -90
     [main.params]
         icon = "messages"
@@ -18,12 +27,11 @@
 [[main]]
     identifier = "about"
     name       = "关于"
-    url        = "/about/"
+    url        = "/zh/about/"
     weight     = -80
     [main.params]
         icon = "user"
 
-# 侧栏社交图标。不想要就整段删掉。
 [[social]]
     identifier = "github"
     name       = "GitHub"

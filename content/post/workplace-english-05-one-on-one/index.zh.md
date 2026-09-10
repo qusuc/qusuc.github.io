@@ -1,33 +1,33 @@
 ---
-title: "Workplace English 5: One-to-one with a team member"
+title: "职场英语 5：与团队成员的 1:1"
 date: 2026-09-10
 draft: false
 image: "cover.jpg"
 categories:
-    - Workplace English
+    - 英语学习
 tags:
-    - workplace English
+    - 职场英语
     - QA
-    - communication
-    - speaking
-description: "The regular one-to-one end to end, including the parts that are hard to start: praise, criticism, career, retention and goodbyes."
+    - 沟通
+    - 口语
+description: "定期 1:1 从开场到收尾的整套英文说法，包含表扬、提问题、谈发展、留人和告别这些难开口的部分。"
 ---
 
-Part 5 of 9 in the Workplace English series. One real situation per article, in three layers: the vocabulary it runs on, sentences you can read aloud as they are, and a role-play prompt you can hand straight to an AI.
+这是「职场英语场景」系列的第 5 篇，共 9 篇。每篇只讲一个真实场景，分三层：这个场景跑在哪些词上、可以照着念的句子、一段能直接丢给 AI 的角色扮演 prompt。
 
-Written for people whose first language is not English but whose whole working day happens in it. **The explanations are in Chinese** — the English is what you say, the Chinese tells you when to reach for it.
+写给英语不是母语、却要用英语开完整个工作日的人。所有句子都是短句，能在会议中途扫一眼就念出来的那种。
 
-**The regular one-to-one end to end, including the parts that are hard to start: praise, criticism, career, retention and goodbyes.**
+**定期 1:1 从开场到收尾的整套英文说法，包含表扬、提问题、谈发展、留人和告别这些难开口的部分。**
 
 {{< we-panel >}}
-**When to use it**
+**什么时候用**
 
 - 每周或每两周固定的 1:1
 - 有人状态明显不对，临时约一次
 - 绩效周期前后要对齐期望
 - 有人提出想换组或想离职
 
-**How to hold yourself**
+**心态**
 
 - 你是主持人，节奏由你定。对方说得多才是好的 1:1，目标是让他讲 70% 的话。
 - 一开始就说清楚英语不是你的母语，请对方慢一点。这会让整场对话都放慢，对你有利。
@@ -35,9 +35,9 @@ Written for people whose first language is not English but whose whole working d
 - 表扬要具体到某件事，批评要对事不对人。用 SBI：情境 → 行为 → 影响。
 {{< /we-panel >}}
 
-## 1 · Vocabulary
+## 一、术语
 
-| English | 中文 | 用法 · how to use it |
+| English | 中文 | 用法 |
 | --- | --- | --- |
 | **one-to-one / 1:1**<br><span class="we-ipa">/ˌwʌn tə ˈwʌn/</span> | 一对一沟通 | 口语里直接说 "our one-to-one" 或 "our 1:1"。英式写 one-to-one，美式常写 one-on-one，都对。 |
 | **blocker**<br><span class="we-ipa">/ˈblɑkər/</span> | 阻塞项 | 比 "problem" 精确，指卡住让他没法往下做的东西。"What's blocking you?" 是 1:1 最有用的一句。 |
@@ -55,7 +55,7 @@ Written for people whose first language is not English but whose whole working d
 | **to be transparent with you**<br><span class="we-ipa">/trænsˈpɛrənt/</span> | 我跟你交个底 | 要说实话但话不好听时的缓冲。用在坏消息前面。 |
 | **on the same page**<br><span class="we-ipa">/ˈseɪm peɪdʒ/</span> | 达成共识 | 收尾必用："Are we on the same page?" |
 
-## 2 · What to say
+## 二、场景句子
 
 ### Opening — settle them in · 开场：让人放松下来
 
@@ -201,11 +201,11 @@ Written for people whose first language is not English but whose whole working d
 
 <div class="we-say"><span class="we-en">Give me a second to think about that.</span><span class="we-cn">让我想一下。</span><span class="we-tip">争取思考时间，不要用沉默硬扛。</span></div>
 
-## 3 · Rehearse with an AI
+## 三、和 AI 对练
 
-Copy the whole block into ChatGPT, Claude or any chat model — the copy button is in the top-right corner. Replace what is in [brackets] with your own situation, then start speaking.
+把下面这段整块复制给 ChatGPT、Claude 或任何一个会聊天的模型——代码块右上角有复制按钮，点一下就是整段。把方括号里的内容换成你自己的处境，然后用英文开口。
 
-It plays the person across the table and does not go easy on you: it pushes back, applies pressure, and gives a lazy answer to a lazy question. After every turn it adds one line of Chinese naming the move it just made. When you close the conversation it drops character and reviews you.
+它会扮演对面那个人，不会放水：该反驳的反驳，该施压的施压。每一轮它都会附一行中文提示，告诉你对方刚用了什么招、什么答法能接住。你说结束之后，它会切出角色，用中文点评你哪里让步太早、漏了什么，并给出你本该说的两句英文。
 
 ```text {linenos=false}
 You are playing a QA engineer on my team. I am your manager, and we are in
@@ -240,34 +240,34 @@ I should have used.
 Start by waiting for me to open the meeting.
 ```
 
-### A sample run
+### 示范对话
 
-Roughly what the prompt produces. The Chinese hints are for the learner, not part of the conversation.
+下面是这段 prompt 跑起来大概是什么样子。中文提示是给你看的，不是对话的一部分。
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">Thanks for making the time. Before we start — my English is not my first language, so please speak slowly. How have the last two weeks been?</span><span class="we-cn">谢谢你抽时间。开始前说明一下，英语不是我的母语，请慢一点。过去两周怎么样？</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">Thanks for making the time. Before we start — my English is not my first language, so please speak slowly. How have the last two weeks been?</span><span class="we-cn">谢谢你抽时间。开始前说明一下，英语不是我的母语，请慢一点。过去两周怎么样？</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">Yeah, fine. Busy. I finished the regression round for 5.17 and picked up a couple of bugs from the crash report.</span><span class="we-cn">还行，挺忙。我做完了 5.17 的回归，又从崩溃报告里接了两个 bug。</span><span class="we-hint">"fine, busy" 是安全答案，不是真实答案。别接受它，追一句。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">Yeah, fine. Busy. I finished the regression round for 5.17 and picked up a couple of bugs from the crash report.</span><span class="we-cn">还行，挺忙。我做完了 5.17 的回归，又从崩溃报告里接了两个 bug。</span><span class="we-hint">"fine, busy" 是安全答案，不是真实答案。别接受它，追一句。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">That's the summary. What's taking longer than you expected?</span><span class="we-cn">这是总结。有什么比你预想的更花时间？</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">That's the summary. What's taking longer than you expected?</span><span class="we-cn">这是总结。有什么比你预想的更花时间？</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">Honestly, the regression. It's the third round this month and it's the same suite every time. Half of it is stuff we could automate.</span><span class="we-cn">说实话，是回归。这个月第三轮了，每次都是同一套。有一半其实可以自动化。</span><span class="we-hint">真话开始出来了。这里不要急着解释为什么必须手工跑，先问下去。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">Honestly, the regression. It's the third round this month and it's the same suite every time. Half of it is stuff we could automate.</span><span class="we-cn">说实话，是回归。这个月第三轮了，每次都是同一套。有一半其实可以自动化。</span><span class="we-hint">真话开始出来了。这里不要急着解释为什么必须手工跑，先问下去。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">Say more about that. Which half?</span><span class="we-cn">展开说说，哪一半？</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">Say more about that. Which half?</span><span class="we-cn">展开说说，哪一半？</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">The call setup cases, mostly. They never change. But I don't have time to automate them because I'm always running them.</span><span class="we-cn">主要是呼叫建立那些用例，从来不变。但我没时间自动化，因为我一直在跑它们。</span><span class="we-hint">他描述的是一个循环。他真正想说的可能不只是效率问题。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">The call setup cases, mostly. They never change. But I don't have time to automate them because I'm always running them.</span><span class="we-cn">主要是呼叫建立那些用例，从来不变。但我没时间自动化，因为我一直在跑它们。</span><span class="we-hint">他描述的是一个循环。他真正想说的可能不只是效率问题。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">That's a fair point, and it's a loop. Let me ask something else — is this about the work, or about where it's taking you?</span><span class="we-cn">说得有道理，而且这是个死循环。我问点别的：这是工作本身的问题，还是它把你带向哪里的问题？</span><span class="we-hint">这一步是转折。从任务谈到人，是好 1:1 和差 1:1 的分界。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">That's a fair point, and it's a loop. Let me ask something else — is this about the work, or about where it's taking you?</span><span class="we-cn">说得有道理，而且这是个死循环。我问点别的：这是工作本身的问题，还是它把你带向哪里的问题？</span><span class="we-hint">这一步是转折。从任务谈到人，是好 1:1 和差 1:1 的分界。</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">...Both, I guess. Priya got the AI platform work. I've been here longer.</span><span class="we-cn">我想两者都有吧。Priya 拿到了 AI 平台的活。我来得比他早。</span><span class="we-hint">核心来了。不要辩解分工，先承认他的感受，再讲你的判断标准。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">...Both, I guess. Priya got the AI platform work. I've been here longer.</span><span class="we-cn">我想两者都有吧。Priya 拿到了 AI 平台的活。我来得比他早。</span><span class="we-hint">核心来了。不要辩解分工，先承认他的感受，再讲你的判断标准。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">Thank you for telling me. I'd rather hear it now. Let me be transparent with you about how I decided that.</span><span class="we-cn">谢谢你告诉我，我宁可现在听到。我跟你交个底，说说我当时是怎么决定的。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">Thank you for telling me. I'd rather hear it now. Let me be transparent with you about how I decided that.</span><span class="we-cn">谢谢你告诉我，我宁可现在听到。我跟你交个底，说说我当时是怎么决定的。</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">Okay. I'm listening.</span><span class="we-cn">好，我听着。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">Okay. I'm listening.</span><span class="we-cn">好，我听着。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">And then I want to talk about what end-to-end ownership would look like for you next quarter. Are you up for that?</span><span class="we-cn">然后我想谈谈下个季度你独立主导一件事会是什么样。你愿意吗？</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">And then I want to talk about what end-to-end ownership would look like for you next quarter. Are you up for that?</span><span class="we-cn">然后我想谈谈下个季度你独立主导一件事会是什么样。你愿意吗？</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">Yeah. That's actually what I wanted to hear.</span><span class="we-cn">愿意。这其实就是我想听到的。</span><span class="we-hint">收尾前记得复述一遍你听到的，并给出具体的跟进日期。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">Yeah. That's actually what I wanted to hear.</span><span class="we-cn">愿意。这其实就是我想听到的。</span><span class="we-hint">收尾前记得复述一遍你听到的，并给出具体的跟进日期。</span></div>
 
 ---
 
-The rest of the series is under [Workplace English](/categories/workplace-english/). Names, products and version numbers are invented; the situations and the terminology are real.
+系列其余各篇在 [英语学习](/zh/categories/英语学习/) 分类下。文中的人名、产品和版本号都是编的，场景和术语是真的。

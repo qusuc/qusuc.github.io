@@ -1,33 +1,33 @@
 ---
-title: "Workplace English 3: Speaking the weekly report aloud"
+title: "职场英语 3：周报的口头汇报"
 date: 2026-09-10
 draft: false
 image: "cover.jpg"
 categories:
-    - Workplace English
+    - 英语学习
 tags:
-    - workplace English
+    - 职场英语
     - QA
-    - communication
-    - speaking
-description: "Speaking a written weekly report aloud in three minutes: the opening frame, reading numbers, trends and risk, and getting back on track after an interruption."
+    - 沟通
+    - 口语
+description: "把已经写好的周报当众讲三分钟：开场骨架、数字怎么念、讲趋势和风险、被打断怎么接回去。"
 ---
 
-Part 3 of 9 in the Workplace English series. One real situation per article, in three layers: the vocabulary it runs on, sentences you can read aloud as they are, and a role-play prompt you can hand straight to an AI.
+这是「职场英语场景」系列的第 3 篇，共 9 篇。每篇只讲一个真实场景，分三层：这个场景跑在哪些词上、可以照着念的句子、一段能直接丢给 AI 的角色扮演 prompt。
 
-Written for people whose first language is not English but whose whole working day happens in it. **The explanations are in Chinese** — the English is what you say, the Chinese tells you when to reach for it.
+写给英语不是母语、却要用英语开完整个工作日的人。所有句子都是短句，能在会议中途扫一眼就念出来的那种。
 
-**Speaking a written weekly report aloud in three minutes: the opening frame, reading numbers, trends and risk, and getting back on track after an interruption.**
+**把已经写好的周报当众讲三分钟：开场骨架、数字怎么念、讲趋势和风险、被打断怎么接回去。**
 
 {{< we-panel >}}
-**When to use it**
+**什么时候用**
 
 - 周会上讲这周的质量情况
 - 发版评审里给三分钟的质量概述
 - 上级临时问这周怎么样
 - 跨组会议上代表 QA 汇报
 
-**How to hold yourself**
+**心态**
 
 - 内容你早就写好了，现在只是把它读出来。压力来自即兴，所以不要即兴，照骨架走。
 - 三分钟只讲三件事：数字、趋势、你要什么。别讲过程，别一条条念 bug。
@@ -35,9 +35,9 @@ Written for people whose first language is not English but whose whole working d
 - 被打断是正常的。准备好一句接回去的话，就不会乱。
 {{< /we-panel >}}
 
-## 1 · Vocabulary
+## 一、术语
 
-| English | 中文 | 用法 · how to use it |
+| English | 中文 | 用法 |
 | --- | --- | --- |
 | **pass rate**<br><span class="we-ipa">/ˈpæs reɪt/</span> | 通过率 | — |
 | **coverage**<br><span class="we-ipa">/ˈkʌvərɪdʒ/</span> | 覆盖率 | — |
@@ -55,7 +55,7 @@ Written for people whose first language is not English but whose whole working d
 | **I will keep this short** | 我长话短说 | — |
 | **for context**<br><span class="we-ipa">/fər ˈkɑntɛkst/</span> | 补充一下背景 | 被问到细节时先说这个，给自己两秒钟组织语言。 |
 
-## 2 · What to say
+## 二、场景句子
 
 ### The three-sentence frame · 三句式骨架
 
@@ -165,11 +165,11 @@ Written for people whose first language is not English but whose whole working d
 
 <div class="we-say"><span class="we-en">Sorry, one moment — I want to answer the right question.</span><span class="we-cn">抱歉稍等，我想回答对问题。</span><span class="we-tip">把慢下来说成对准确负责，没人会有意见。</span></div>
 
-## 3 · Rehearse with an AI
+## 三、和 AI 对练
 
-Copy the whole block into ChatGPT, Claude or any chat model — the copy button is in the top-right corner. Replace what is in [brackets] with your own situation, then start speaking.
+把下面这段整块复制给 ChatGPT、Claude 或任何一个会聊天的模型——代码块右上角有复制按钮，点一下就是整段。把方括号里的内容换成你自己的处境，然后用英文开口。
 
-It plays the person across the table and does not go easy on you: it pushes back, applies pressure, and gives a lazy answer to a lazy question. After every turn it adds one line of Chinese naming the move it just made. When you close the conversation it drops character and reviews you.
+它会扮演对面那个人，不会放水：该反驳的反驳，该施压的施压。每一轮它都会附一行中文提示，告诉你对方刚用了什么招、什么答法能接住。你说结束之后，它会切出角色，用中文点评你哪里让步太早、漏了什么，并给出你本该说的两句英文。
 
 ```text {linenos=false}
 You are running a release meeting. I am the QA lead and I have three minutes
@@ -203,34 +203,34 @@ two English sentences I should have used.
 Wait for me to start.
 ```
 
-### A sample run
+### 示范对话
 
-Roughly what the prompt produces. The Chinese hints are for the learner, not part of the conversation.
+下面是这段 prompt 跑起来大概是什么样子。中文提示是给你看的，不是对话的一部分。
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">I'll keep this short. Three things — where we are, what changed, and what I need.</span><span class="we-cn">我长话短说，三件事：现在什么情况、有什么变化、我需要什么。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">I'll keep this short. Three things — where we are, what changed, and what I need.</span><span class="we-cn">我长话短说，三件事：现在什么情况、有什么变化、我需要什么。</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">Go ahead.</span><span class="we-cn">你说。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">Go ahead.</span><span class="we-cn">你说。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">To give you the headline — 5.17 is on track for testing, with one risk. Open defects are down week over week, from thirty-one to twenty-four.</span><span class="we-cn">先说结论：5.17 测试进度正常，有一个风险。未关闭缺陷环比从 31 降到 24。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">To give you the headline — 5.17 is on track for testing, with one risk. Open defects are down week over week, from thirty-one to twenty-four.</span><span class="we-cn">先说结论：5.17 测试进度正常，有一个风险。未关闭缺陷环比从 31 降到 24。</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">Is that a real drop, or did we just run fewer tests this week?</span><span class="we-cn">这是真的降了，还是这周少跑了用例？</span><span class="we-hint">典型的质疑。别辩解，给能证明的第二个数字。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">Is that a real drop, or did we just run fewer tests this week?</span><span class="we-cn">这是真的降了，还是这周少跑了用例？</span><span class="we-hint">典型的质疑。别辩解，给能证明的第二个数字。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">Fair question. We ran the same regression round — twelve hundred cases, both weeks. The pass rate went from eighty-four to eighty-seven point five percent.</span><span class="we-cn">好问题。我们跑的是同一轮回归，两周都是 1200 条。通过率从 84 升到 87.5。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">Fair question. We ran the same regression round — twelve hundred cases, both weeks. The pass rate went from eighty-four to eighty-seven point five percent.</span><span class="we-cn">好问题。我们跑的是同一轮回归，两周都是 1200 条。通过率从 84 升到 87.5。</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">And the crash rate? You didn't mention it.</span><span class="we-cn">崩溃率呢？你没提。</span><span class="we-hint">问到你没准备的数字。有就给，没有就承诺跟进，绝不硬编。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">And the crash rate? You didn't mention it.</span><span class="we-cn">崩溃率呢？你没提。</span><span class="we-hint">问到你没准备的数字。有就给，没有就承诺跟进，绝不硬编。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">Zero point four percent. That's still above our zero point five bar, and it's the third week in a row.</span><span class="we-cn">0.6%。仍然高于我们 0.5% 的标准，而且是连续第三周。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">Zero point four percent. That's still above our zero point five bar, and it's the third week in a row.</span><span class="we-cn">0.6%。仍然高于我们 0.5% 的标准，而且是连续第三周。</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">Third week? Why hasn't that moved?</span><span class="we-cn">第三周了？为什么一直没动？</span><span class="we-hint">这是转到风险段的入口。抓住它，别陷进技术细节。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">Third week? Why hasn't that moved?</span><span class="we-cn">第三周了？为什么一直没动？</span><span class="we-hint">这是转到风险段的入口。抓住它，别陷进技术细节。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">That's the risk I wanted to flag. One blocker is still open on the call setup path, and it needs a decision, not more testing.</span><span class="we-cn">这正是我想提的风险。呼叫建立那条路径上还有一个阻塞级问题，它需要的是决定，不是继续测。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">That's the risk I wanted to flag. One blocker is still open on the call setup path, and it needs a decision, not more testing.</span><span class="we-cn">这正是我想提的风险。呼叫建立那条路径上还有一个阻塞级问题，它需要的是决定，不是继续测。</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">So can you sign off on Friday or not?</span><span class="we-cn">那周五你到底能不能签字？</span><span class="we-hint">要一个明确答案。给条件式回答，不要含糊。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">So can you sign off on Friday or not?</span><span class="we-cn">那周五你到底能不能签字？</span><span class="we-hint">要一个明确答案。给条件式回答，不要含糊。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">If it isn't fixed by Thursday, I can't sign off on Friday. What I need from this meeting is an owner for that ticket.</span><span class="we-cn">如果周四之前修不掉，周五我没法签字。我需要这个会给出的是那个单子的负责人。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">If it isn't fixed by Thursday, I can't sign off on Friday. What I need from this meeting is an owner for that ticket.</span><span class="we-cn">如果周四之前修不掉，周五我没法签字。我需要这个会给出的是那个单子的负责人。</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">Okay. I'll assign it after this. Anything else?</span><span class="we-cn">好，会后我来指派。还有别的吗？</span><span class="we-hint">用固定的结尾句收口，不要再展开新话题。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">Okay. I'll assign it after this. Anything else?</span><span class="we-cn">好，会后我来指派。还有别的吗？</span><span class="we-hint">用固定的结尾句收口，不要再展开新话题。</span></div>
 
 ---
 
-The rest of the series is under [Workplace English](/categories/workplace-english/). Names, products and version numbers are invented; the situations and the terminology are real.
+系列其余各篇在 [英语学习](/zh/categories/英语学习/) 分类下。文中的人名、产品和版本号都是编的，场景和术语是真的。

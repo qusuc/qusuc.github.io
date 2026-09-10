@@ -1,8 +1,17 @@
-# English navigation. icon 只能用 themes/hugo-theme-stack/assets/icons/ 里已有的名字。
+# English is the default language, so it sits at the root path.
+# icon 只能用 themes/hugo-theme-stack/assets/icons/ 里已有的名字。
+[[main]]
+    identifier = "english"
+    name       = "English"
+    url        = "/categories/workplace-english/"
+    weight     = -110
+    [main.params]
+        icon = "language"
+
 [[main]]
     identifier = "post"
     name       = "Tech"
-    url        = "/en/post/"
+    url        = "/post/"
     weight     = -100
     [main.params]
         icon = "categories"
@@ -10,7 +19,7 @@
 [[main]]
     identifier = "essay"
     name       = "Essays"
-    url        = "/en/essay/"
+    url        = "/essay/"
     weight     = -90
     [main.params]
         icon = "messages"
@@ -18,7 +27,7 @@
 [[main]]
     identifier = "about"
     name       = "About"
-    url        = "/en/about/"
+    url        = "/about/"
     weight     = -80
     [main.params]
         icon = "user"

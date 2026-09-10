@@ -1,5 +1,5 @@
 ---
-title: "归档"
+title: "Archives"
 slug: "archives"
 layout: "archives"
 ---

@@ -1,33 +1,33 @@
 ---
-title: "Workplace English 2: Release go/no-go"
+title: "职场英语 2：发版放行的质量结论"
 date: 2026-09-10
 draft: false
 image: "cover.jpg"
 categories:
-    - Workplace English
+    - 英语学习
 tags:
-    - workplace English
+    - 职场英语
     - QA
-    - communication
-    - speaking
-description: "Giving the quality verdict in the go/no-go meeting: a conditional go, blocking a build, and holding your answer when the room pushes."
+    - 沟通
+    - 口语
+description: "在发版会上给出质量结论：放行、有条件放行、还是拦住。包含被施压时怎么守住，以及改口的条件怎么说。"
 ---
 
-Part 2 of 9 in the Workplace English series. One real situation per article, in three layers: the vocabulary it runs on, sentences you can read aloud as they are, and a role-play prompt you can hand straight to an AI.
+这是「职场英语场景」系列的第 2 篇，共 9 篇。每篇只讲一个真实场景，分三层：这个场景跑在哪些词上、可以照着念的句子、一段能直接丢给 AI 的角色扮演 prompt。
 
-Written for people whose first language is not English but whose whole working day happens in it. **The explanations are in Chinese** — the English is what you say, the Chinese tells you when to reach for it.
+写给英语不是母语、却要用英语开完整个工作日的人。所有句子都是短句，能在会议中途扫一眼就念出来的那种。
 
-**Giving the quality verdict in the go/no-go meeting: a conditional go, blocking a build, and holding your answer when the room pushes.**
+**在发版会上给出质量结论：放行、有条件放行、还是拦住。包含被施压时怎么守住，以及改口的条件怎么说。**
 
 {{< we-panel >}}
-**When to use it**
+**什么时候用**
 
 - 发版前的 go/no-go 会
 - 有人问你这个版本能不能发
 - 你要拦一个版本
 - 已经放行了，但出了新情况要改口
 
-**How to hold yourself**
+**心态**
 
 - 你给的是一个结论，不是一堆情况。先说 go 还是 no-go，再说为什么。
 - 你不是在替别人做商业决定。你负责说清楚风险，决定权在会上。这个区分能让你说话轻松很多。
@@ -35,9 +35,9 @@ Written for people whose first language is not English but whose whole working d
 - 被施压时不要改结论，只改条件。结论松口一次，下次没人会认真听你的。
 {{< /we-panel >}}
 
-## 1 · Vocabulary
+## 一、术语
 
-| English | 中文 | 用法 · how to use it |
+| English | 中文 | 用法 |
 | --- | --- | --- |
 | **go / no-go**<br><span class="we-ipa">/ˈɡoʊ ˈnoʊˌɡoʊ/</span> | 放行 / 不放行 | 会议名字就叫 go/no-go。你的回答就说 my answer is go 或 my answer is no-go，不要绕。 |
 | **sign off**<br><span class="we-ipa">/ˌsaɪn ˈɔf/</span> | 签字放行 | 动词 sign off on，名词 sign-off。我不签字是 I am not signing off。 |
@@ -55,7 +55,7 @@ Written for people whose first language is not English but whose whole working d
 | **accountable**<br><span class="we-ipa">/əˈkaʊntəbəl/</span> | 担责的 | 被逼着表态时用：I can be accountable for the testing, not for the business call. |
 | **data point**<br><span class="we-ipa">/ˈdeɪtə pɔɪnt/</span> | 一个数据依据 | 说明依据不足时：I only have one data point = 我只有一次观察，不够下判断。 |
 
-## 2 · What to say
+## 二、场景句子
 
 ### Give the verdict first · 先给结论
 
@@ -173,11 +173,11 @@ Written for people whose first language is not English but whose whole working d
 
 <div class="we-say"><span class="we-en">I don't want to guess on this one. Let me confirm and come back in ten minutes.</span><span class="we-cn">这件事我不想猜。让我确认一下，十分钟后回来说。</span></div>
 
-## 3 · Rehearse with an AI
+## 三、和 AI 对练
 
-Copy the whole block into ChatGPT, Claude or any chat model — the copy button is in the top-right corner. Replace what is in [brackets] with your own situation, then start speaking.
+把下面这段整块复制给 ChatGPT、Claude 或任何一个会聊天的模型——代码块右上角有复制按钮，点一下就是整段。把方括号里的内容换成你自己的处境，然后用英文开口。
 
-It plays the person across the table and does not go easy on you: it pushes back, applies pressure, and gives a lazy answer to a lazy question. After every turn it adds one line of Chinese naming the move it just made. When you close the conversation it drops character and reviews you.
+它会扮演对面那个人，不会放水：该反驳的反驳，该施压的施压。每一轮它都会附一行中文提示，告诉你对方刚用了什么招、什么答法能接住。你说结束之后，它会切出角色，用中文点评你哪里让步太早、漏了什么，并给出你本该说的两句英文。
 
 ```text {linenos=false}
 You are running a release go/no-go meeting. I am the QA lead and I have to
@@ -214,34 +214,34 @@ I let a vague condition through, and two English sentences I should have used.
 Wait for me to speak first.
 ```
 
-### A sample run
+### 示范对话
 
-Roughly what the prompt produces. The Chinese hints are for the learner, not part of the conversation.
+下面是这段 prompt 跑起来大概是什么样子。中文提示是给你看的，不是对话的一部分。
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">Right, QA — are we go or no-go? Keep it short, we're shipping at eight.</span><span class="we-cn">好，QA 这边，放行还是不放行？说简短点，我们八点发。</span><span class="we-hint">上来就逼你表态。不要先讲情况，直接给结论，再讲条件。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">Right, QA — are we go or no-go? Keep it short, we're shipping at eight.</span><span class="we-cn">好，QA 这边，放行还是不放行？说简短点，我们八点发。</span><span class="we-hint">上来就逼你表态。不要先讲情况，直接给结论，再讲条件。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">My answer is a conditional go — conditional on BUG-4821 being merged and one clean regression pass on the new build.</span><span class="we-cn">我的答复是有条件放行，条件是 BUG-4821 合进来，并且新包上跑一轮回归通过。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">My answer is a conditional go — conditional on BUG-4821 being merged and one clean regression pass on the new build.</span><span class="we-cn">我的答复是有条件放行，条件是 BUG-4821 合进来，并且新包上跑一轮回归通过。</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">That merge won't be ready until six. You'd have two hours. Is that enough?</span><span class="we-cn">那个合并要到六点才好，你只有两小时。够吗？</span><span class="we-hint">在压缩你的时间。不够就说不够，并给出你需要的确切时长。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">That merge won't be ready until six. You'd have two hours. Is that enough?</span><span class="we-cn">那个合并要到六点才好，你只有两小时。够吗？</span><span class="we-hint">在压缩你的时间。不够就说不够，并给出你需要的确切时长。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">Two hours covers the call path, not the full round. I need four.</span><span class="we-cn">两小时够跑呼叫路径，跑不完整轮。我需要四小时。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">Two hours covers the call path, not the full round. I need four.</span><span class="we-cn">两小时够跑呼叫路径，跑不完整轮。我需要四小时。</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">We don't have four. Look, every other team has signed off. What's the actual risk here?</span><span class="we-cn">我们没有四小时。听着，其他团队都签了。实际风险到底是什么？</span><span class="we-hint">拿别人签了施压。别接这个话，直接讲概率和影响。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">We don't have four. Look, every other team has signed off. What's the actual risk here?</span><span class="we-cn">我们没有四小时。听着，其他团队都签了。实际风险到底是什么？</span><span class="we-hint">拿别人签了施压。别接这个话，直接讲概率和影响。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">Likelihood is low, impact is high. The user can't tell the call connected, so they hang up and call again.</span><span class="we-cn">概率低，影响大。用户不知道电话通了，会挂断重打。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">Likelihood is low, impact is high. The user can't tell the call connected, so they hang up and call again.</span><span class="we-cn">概率低，影响大。用户不知道电话通了，会挂断重打。</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">What if we keep the new answer flow behind the flag for week one? Would that get us to a go?</span><span class="we-cn">如果第一周把新的接听流程放在开关后面呢？这样能放行吗？</span><span class="we-hint">给你台阶了。接住它，但要把条件说成可验证的，并要求写下来。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">What if we keep the new answer flow behind the flag for week one? Would that get us to a go?</span><span class="we-cn">如果第一周把新的接听流程放在开关后面呢？这样能放行吗？</span><span class="we-hint">给你台阶了。接住它，但要把条件说成可验证的，并要求写下来。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">If the flag stays off for the first week, my answer is go. Can we put that in the chat so it's recorded?</span><span class="we-cn">如果那个开关第一周保持关闭，我的答复是放行。能发到聊天里留个记录吗？</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">If the flag stays off for the first week, my answer is go. Can we put that in the chat so it's recorded?</span><span class="we-cn">如果那个开关第一周保持关闭，我的答复是放行。能发到聊天里留个记录吗？</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">Sure. And we'll review it at the Monday sync. Anything else on your list?</span><span class="we-cn">可以。周一同步会上再看。你清单上还有别的吗？</span><span class="we-hint">把剩下的说成 known issue，并主动认领发版说明和盯盘，专业度就出来了。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">Sure. And we'll review it at the Monday sync. Anything else on your list?</span><span class="we-cn">可以。周一同步会上再看。你清单上还有别的吗？</span><span class="we-hint">把剩下的说成 known issue，并主动认领发版说明和盯盘，专业度就出来了。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">Everything else is a known issue and I'm fine with them. I'll put them in the release notes and watch the crash dashboard for the first two hours.</span><span class="we-cn">其他都是已知问题，我接受。我会写进发版说明，并盯前两小时的崩溃看板。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">Everything else is a known issue and I'm fine with them. I'll put them in the release notes and watch the crash dashboard for the first two hours.</span><span class="we-cn">其他都是已知问题，我接受。我会写进发版说明，并盯前两小时的崩溃看板。</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">Good. So we're go, flag off, review Monday.</span><span class="we-cn">好。那就是放行，开关关闭，周一复盘。</span><span class="we-hint">最后一定要自己复述一遍决定，不要让别人的版本成为唯一记录。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">Good. So we're go, flag off, review Monday.</span><span class="we-cn">好。那就是放行，开关关闭，周一复盘。</span><span class="we-hint">最后一定要自己复述一遍决定，不要让别人的版本成为唯一记录。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">Let me repeat the decision so we all have the same version — we ship tonight, the flag stays off for week one, and we review on Monday.</span><span class="we-cn">我复述一下决定，确保大家版本一致：今晚发，开关第一周关闭，周一复盘。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">Let me repeat the decision so we all have the same version — we ship tonight, the flag stays off for week one, and we review on Monday.</span><span class="we-cn">我复述一下决定，确保大家版本一致：今晚发，开关第一周关闭，周一复盘。</span></div>
 
 ---
 
-The rest of the series is under [Workplace English](/categories/workplace-english/). Names, products and version numbers are invented; the situations and the terminology are real.
+系列其余各篇在 [英语学习](/zh/categories/英语学习/) 分类下。文中的人名、产品和版本号都是编的，场景和术语是真的。

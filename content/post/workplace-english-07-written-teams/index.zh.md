@@ -1,33 +1,33 @@
 ---
-title: "Workplace English 7: Written Teams messages"
+title: "职场英语 7：Teams 书面沟通"
 date: 2026-09-10
 draft: false
 image: "cover.jpg"
 categories:
-    - Workplace English
+    - 英语学习
 tags:
-    - workplace English
+    - 职场英语
     - QA
-    - communication
-    - speaking
-description: "Chat you can edit before sending: asking, chasing, refusing, reporting — a soft/neutral/firm tone dial, and the Chinese-to-English habits that read wrong."
+    - 沟通
+    - 口语
+description: "打字沟通有时间修改，所以标准更高。请求、催办、拒绝、报问题的模板，同一句话的三档语气，以及中式直译的常见陷阱。"
 ---
 
-Part 7 of 9 in the Workplace English series. One real situation per article, in three layers: the vocabulary it runs on, sentences you can read aloud as they are, and a role-play prompt you can hand straight to an AI.
+这是「职场英语场景」系列的第 7 篇，共 9 篇。每篇只讲一个真实场景，分三层：这个场景跑在哪些词上、可以照着念的句子、一段能直接丢给 AI 的角色扮演 prompt。
 
-Written for people whose first language is not English but whose whole working day happens in it. **The explanations are in Chinese** — the English is what you say, the Chinese tells you when to reach for it.
+写给英语不是母语、却要用英语开完整个工作日的人。所有句子都是短句，能在会议中途扫一眼就念出来的那种。
 
-**Chat you can edit before sending: asking, chasing, refusing, reporting — a soft/neutral/firm tone dial, and the Chinese-to-English habits that read wrong.**
+**打字沟通有时间修改，所以标准更高。请求、催办、拒绝、报问题的模板，同一句话的三档语气，以及中式直译的常见陷阱。**
 
 {{< we-panel >}}
-**When to use it**
+**什么时候用**
 
 - 在 Teams 上请人做事、催进度
 - 要拒绝一个请求，但不想伤关系
 - 往群里报一个问题或风险
 - 写完不确定语气会不会太冲
 
-**How to hold yourself**
+**心态**
 
 - 书面没有语气和表情兜底，所以中性写法读起来常常偏冷。多加一句缓冲，不加感叹号。
 - 一条消息只讲一件事。要三件事就发三条，或者用编号。
@@ -35,9 +35,9 @@ Written for people whose first language is not English but whose whole working d
 - 发之前读一遍：如果这条是别人发给我的，我会不会不舒服？这一遍能拦住大部分问题。
 {{< /we-panel >}}
 
-## 1 · Vocabulary
+## 一、术语
 
-| English | 中文 | 用法 · how to use it |
+| English | 中文 | 用法 |
 | --- | --- | --- |
 | **heads-up**<br><span class="we-ipa">/ˈhɛdz ʌp/</span> | 提前知会 | 写法：Heads-up — the nightly run is red. 意思是先告诉你，不用你现在做什么。 |
 | **to follow up on**<br><span class="we-ipa">/ˈfɑloʊ ʌp/</span> | 跟进 | 催办的标准开头：Following up on the test account request. |
@@ -54,7 +54,7 @@ Written for people whose first language is not English but whose whole working d
 | **to double-check**<br><span class="we-ipa">/ˈdʌbəl tʃɛk/</span> | 再确认一下 | — |
 | **does that work for you** | 你看这样行吗 | 结尾问一句，把决定权交出去。几乎任何请求都能用它收尾。 |
 
-## 2 · What to say
+## 二、场景句子
 
 ### Asking for something · 请人做事
 
@@ -180,11 +180,11 @@ Written for people whose first language is not English but whose whole working d
 
 <div class="we-say"><span class="we-en">Easier to talk than type — do you have five minutes for a call?</span><span class="we-cn">打字不如说话，你有五分钟能通个话吗？</span><span class="we-tip">来回三条还没说清就转语音。别在文字里耗。</span></div>
 
-## 3 · Rehearse with an AI
+## 三、和 AI 对练
 
-Copy the whole block into ChatGPT, Claude or any chat model — the copy button is in the top-right corner. Replace what is in [brackets] with your own situation, then start speaking.
+把下面这段整块复制给 ChatGPT、Claude 或任何一个会聊天的模型——代码块右上角有复制按钮，点一下就是整段。把方括号里的内容换成你自己的处境，然后用英文开口。
 
-It plays the person across the table and does not go easy on you: it pushes back, applies pressure, and gives a lazy answer to a lazy question. After every turn it adds one line of Chinese naming the move it just made. When you close the conversation it drops character and reviews you.
+它会扮演对面那个人，不会放水：该反驳的反驳，该施压的施压。每一轮它都会附一行中文提示，告诉你对方刚用了什么招、什么答法能接住。你说结束之后，它会切出角色，用中文点评你哪里让步太早、漏了什么，并给出你本该说的两句英文。
 
 ```text {linenos=false}
 We are messaging on Teams. I am the QA lead. You are playing my colleague on
@@ -218,34 +218,34 @@ into any Chinese-to-English traps, and rewrite my two weakest messages.
 Wait for my first message.
 ```
 
-### A sample run
+### 示范对话
 
-Roughly what the prompt produces. The Chinese hints are for the learner, not part of the conversation.
+下面是这段 prompt 跑起来大概是什么样子。中文提示是给你看的，不是对话的一部分。
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">Hi Sam — following up on the UAT test account. Any luck?</span><span class="we-cn">Sam，跟进一下 UAT 测试账号的事，有进展吗？</span><span class="we-hint">中性档，开头很好。注意没有用 gentle reminder。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">Hi Sam — following up on the UAT test account. Any luck?</span><span class="we-cn">Sam，跟进一下 UAT 测试账号的事，有进展吗？</span><span class="we-hint">中性档，开头很好。注意没有用 gentle reminder。</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">hey, sorry — been buried in the gateway migration. remind me what you needed?</span><span class="we-cn">嘿，抱歉，一直陷在网关迁移里。你要的是什么来着？</span><span class="we-hint">他在略读，信息其实三天前给过。不要不耐烦，重发一次并把影响加上。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">hey, sorry — been buried in the gateway migration. remind me what you needed?</span><span class="we-cn">嘿，抱歉，一直陷在网关迁移里。你要的是什么来着？</span><span class="we-hint">他在略读，信息其实三天前给过。不要不耐烦，重发一次并把影响加上。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">No problem. A test account on UAT with call permissions — I need it to start the 5.17 regression. It's blocking me now.</span><span class="we-cn">没关系。UAT 上一个带通话权限的测试账号，我要用它开始 5.17 的回归。现在挡住我了。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">No problem. A test account on UAT with call permissions — I need it to start the 5.17 regression. It's blocking me now.</span><span class="we-cn">没关系。UAT 上一个带通话权限的测试账号，我要用它开始 5.17 的回归。现在挡住我了。</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">right. i can probably do it friday</span><span class="we-cn">明白。我大概周五能弄。</span><span class="we-hint">周五太晚了。推回去，但要给他一条出路，不要硬顶。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">right. i can probably do it friday</span><span class="we-cn">明白。我大概周五能弄。</span><span class="we-hint">周五太晚了。推回去，但要给他一条出路，不要硬顶。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">Friday would put the regression a week behind. Can you or should I ask someone on your team?</span><span class="we-cn">周五的话回归要落后一周。你来还是我问你们组其他人？</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">Friday would put the regression a week behind. Can you or should I ask someone on your team?</span><span class="we-cn">周五的话回归要落后一周。你来还是我问你们组其他人？</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">no need to escalate, i'll see what i can do</span><span class="we-cn">不用升级，我看看能怎么办。</span><span class="we-hint">他把你的二选一读成了施压。这里加一句缓冲，把关系拉回来。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">no need to escalate, i'll see what i can do</span><span class="we-cn">不用升级，我看看能怎么办。</span><span class="we-hint">他把你的二选一读成了施压。这里加一句缓冲，把关系拉回来。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">Not escalating — happy to take it off your plate if you're swamped. Whatever's easier for you.</span><span class="we-cn">不是要升级，你要是忙不过来我可以自己去弄。哪种对你方便都行。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">Not escalating — happy to take it off your plate if you're swamped. Whatever's easier for you.</span><span class="we-cn">不是要升级，你要是忙不过来我可以自己去弄。哪种对你方便都行。</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">ah ok. i'll set it up this afternoon then. anything special on the permissions?</span><span class="we-cn">哦好。那我下午建。权限上有什么特殊要求吗？</span><span class="we-hint">关系修好了。把要求写清楚，并承诺一个确认动作。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">ah ok. i'll set it up this afternoon then. anything special on the permissions?</span><span class="we-cn">哦好。那我下午建。权限上有什么特殊要求吗？</span><span class="we-hint">关系修好了。把要求写清楚，并承诺一个确认动作。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">Just call permissions and access to the test tenant. I'll confirm here as soon as I can log in.</span><span class="we-cn">只要通话权限和测试租户的访问。我一登进去就在这里确认。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">Just call permissions and access to the test tenant. I'll confirm here as soon as I can log in.</span><span class="we-cn">只要通话权限和测试租户的访问。我一登进去就在这里确认。</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">👍</span><span class="we-cn">👍</span><span class="we-hint">事情办完了。结尾一句谢，并留下书面记录，这条 thread 就完整了。</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">👍</span><span class="we-cn">👍</span><span class="we-hint">事情办完了。结尾一句谢，并留下书面记录，这条 thread 就完整了。</span></div>
 
-<div class="we-turn we-you"><span class="we-who">You</span><span class="we-en">Thanks Sam — appreciate you fitting it in.</span><span class="we-cn">谢谢 Sam，感谢你挤时间处理。</span></div>
+<div class="we-turn we-you"><span class="we-who">你</span><span class="we-en">Thanks Sam — appreciate you fitting it in.</span><span class="we-cn">谢谢 Sam，感谢你挤时间处理。</span></div>
 
-<div class="we-turn we-them"><span class="we-who">Them</span><span class="we-en">np</span><span class="we-cn">小事。</span><span class="we-hint">事后想想：如果第二条你直接写 this needs to be done today，这段对话会走向哪里？</span></div>
+<div class="we-turn we-them"><span class="we-who">对方</span><span class="we-en">np</span><span class="we-cn">小事。</span><span class="we-hint">事后想想：如果第二条你直接写 this needs to be done today，这段对话会走向哪里？</span></div>
 
 ---
 
-The rest of the series is under [Workplace English](/categories/workplace-english/). Names, products and version numbers are invented; the situations and the terminology are real.
+系列其余各篇在 [英语学习](/zh/categories/英语学习/) 分类下。文中的人名、产品和版本号都是编的，场景和术语是真的。

@@ -1,0 +1,231 @@
+{{/* Site-level customisation. The theme calls this from head.html with the Page
+     as context, so translation links are available here.
+
+     Two things live here:
+     1. the Workplace English article styles (we-*), kept in one place rather than
+        inlined in every generated article;
+     2. a language switch that is visible on a phone without opening the sidebar,
+        and that answers to a left/right swipe as well as a tap. */}}
+<style>
+:root {
+  --we-accent: var(--accent-color, #34495e);
+  --we-line: var(--card-separator-color, rgba(0,0,0,.08));
+  --we-dim: var(--card-text-color-secondary, #64748b);
+  --we-faint: var(--card-text-color-tertiary, #94a3b8);
+  --we-tint: rgba(0,0,0,.028);
+  --we-tip-bg: rgba(201,116,10,.09);
+  --we-tip-fg: #8a5a12;
+  --we-hint-bg: rgba(31,157,85,.11);
+  --we-hint-fg: #14663a;
+  --we-you-bg: rgba(36,86,200,.075);
+  --we-you-fg: #2456c8;
+  --we-them-bg: rgba(100,116,139,.09);
+}
+html[data-scheme="dark"] {
+  --we-tint: rgba(255,255,255,.045);
+  --we-tip-bg: rgba(230,160,60,.12); --we-tip-fg: #e8b568;
+  --we-hint-bg: rgba(64,190,120,.13); --we-hint-fg: #7fd9a6;
+  --we-you-bg: rgba(120,160,255,.12); --we-you-fg: #9db8ff;
+  --we-them-bg: rgba(180,190,205,.09);
+}
+
+/* ---- orientation panel ---------------------------------------------- */
+.we-panel {
+  display: grid; gap: 4px 34px; grid-template-columns: repeat(2, minmax(0,1fr));
+  background: var(--we-tint); border: 1px solid var(--we-line);
+  border-radius: 14px; padding: 22px 26px; margin: 26px 0 34px;
+}
+.we-panel p { margin: 0 0 6px; font-size: .96em; }
+.we-panel ul { margin: 0 0 4px; padding-left: 1.15em; }
+.we-panel li { margin: 5px 0; font-size: .93em; line-height: 1.65; }
+@media (max-width: 700px) { .we-panel { grid-template-columns: 1fr; gap: 0; } }
+
+/* ---- one sentence to say -------------------------------------------- */
+.we-say {
+  border-left: 3px solid var(--we-accent);
+  background: var(--we-tint);
+  border-radius: 0 10px 10px 0; padding: 12px 16px; margin: 12px 0;
+}
+.we-say .we-en {
+  display: block; font-weight: 600; font-size: 1.045em; line-height: 1.5;
+  letter-spacing: -.003em;
+}
+.we-say .we-cn { display: block; margin-top: 4px; color: var(--we-dim); font-size: .9em; }
+.we-tip {
+  display: block; margin-top: 9px; padding: 7px 11px; border-radius: 8px;
+  background: var(--we-tip-bg); color: var(--we-tip-fg); font-size: .855em; line-height: 1.6;
+}
+.we-groupnote {
+  border-left: 3px solid var(--we-faint); padding: 2px 0 2px 14px;
+  color: var(--we-dim); font-size: .9em; font-style: italic; margin: 12px 0 16px;
+}
+hr.we-sep { border: 0; border-top: 1px solid var(--we-line); margin: 40px 0 30px; opacity: .7; }
+
+/* ---- rehearsal dialogue --------------------------------------------- */
+.we-turn { border-radius: 12px; padding: 13px 17px; margin: 12px 0; }
+.we-turn.we-you   { background: var(--we-you-bg); }
+.we-turn.we-them  { background: var(--we-them-bg); }
+.we-turn .we-who {
+  display: block; font-size: .72em; font-weight: 700; letter-spacing: .09em;
+  text-transform: uppercase; color: var(--we-faint); margin-bottom: 4px;
+}
+.we-turn.we-you .we-who { color: var(--we-you-fg); }
+.we-turn .we-en { display: block; font-weight: 500; line-height: 1.55; }
+.we-turn .we-cn { display: block; margin-top: 3px; color: var(--we-dim); font-size: .88em; }
+.we-hint {
+  display: block; margin-top: 9px; padding: 7px 11px; border-radius: 8px;
+  background: var(--we-hint-bg); color: var(--we-hint-fg); font-size: .855em; line-height: 1.6;
+}
+
+/* ---- vocabulary table ------------------------------------------------ */
+.we-ipa { font-size: .84em; opacity: .72; font-family: ui-monospace, "SF Mono", Menlo, monospace; }
+.article-content table td:first-child { white-space: nowrap; }
+@media (max-width: 700px) { .article-content table td:first-child { white-space: normal; } }
+
+/* ---- the whole card is the link, not just its title ------------------ */
+.article-list article, .article-list--compact article, .article-list--tile article {
+  position: relative;
+}
+.article-list article .article-title a::after,
+.article-list--compact article .article-title a::after,
+.article-list--tile article .article-title a::after {
+  content: ""; position: absolute; inset: 0; z-index: 1;
+}
+/* the links that are genuinely other destinations stay clickable */
+.article-list article .article-category a,
+.article-list article .article-meta .link,
+.article-list--compact article .article-category a,
+.article-list--tile article .article-category a {
+  position: relative; z-index: 2;
+}
+.article-list article:hover .article-title a { color: var(--we-accent); }
+.article-list article { transition: transform .16s ease, box-shadow .16s ease; }
+.article-list article:hover { transform: translateY(-2px); }
+
+/* ---- language switch ------------------------------------------------- */
+.we-lang {
+  position: fixed; z-index: 60; display: flex; align-items: center;
+  padding: 4px; border-radius: 999px; touch-action: pan-y;
+  background: var(--card-background, #fff); border: 1px solid var(--we-line);
+  box-shadow: 0 6px 22px rgba(15,23,42,.14);
+  right: 26px; bottom: 26px;
+  -webkit-user-select: none; user-select: none;
+}
+html[data-scheme="dark"] .we-lang { box-shadow: 0 6px 22px rgba(0,0,0,.45); }
+.we-lang .we-thumb {
+  position: absolute; top: 4px; bottom: 4px; border-radius: 999px;
+  background: var(--we-accent); transition: left .26s cubic-bezier(.4,1.3,.5,1), width .26s ease;
+  z-index: 0;
+}
+.we-lang a {
+  position: relative; z-index: 1; display: block; padding: 7px 17px;
+  font-size: 13.5px; font-weight: 600; line-height: 1; white-space: nowrap;
+  color: var(--we-dim); text-decoration: none; border-radius: 999px;
+  transition: color .2s ease;
+}
+.we-lang a.is-on { color: #fff; }
+.we-lang[data-dragging="1"] .we-thumb { transition: none; }
+@media (max-width: 900px) {
+  .we-lang { right: 50%; transform: translateX(50%); bottom: 18px; }
+}
+@media print { .we-lang { display: none; } }
+
+/* ---- the AI prompt block ---------------------------------------------- */
+/* The prompt is prose, not code: it wraps rather than scrolling sideways, and
+   the copy button stays visible. The theme hides that button until hover, which
+   on a phone means never — and copying the prompt is the point of the block. */
+.article-content .highlight:has(code.language-text) pre code {
+  white-space: pre-wrap; word-break: break-word; overflow-wrap: anywhere;
+  /* hanging indent, so a wrapped line is visibly a continuation */
+  display: block; padding-left: 2.2em; text-indent: -2.2em;
+}
+.article-content .highlight:has(code.language-text) { padding-top: 46px; }
+.article-content .copyCodeButton {
+  opacity: 1; font-weight: 600; font-size: 13px; padding: 7px 15px;
+  border: 1px solid var(--we-line);
+}
+.article-content .copyCodeButton:hover { background: var(--we-accent); color: #fff; }
+
+/* ---- orientation panel: label column stays narrow --------------------- */
+.we-panel { grid-template-columns: minmax(96px, 150px) 1fr; align-items: start; }
+.we-panel p { font-weight: 700; padding-top: 2px; }
+@media (max-width: 700px) {
+  .we-panel { grid-template-columns: 1fr; }
+  .we-panel p { padding-top: 12px; }
+  .we-panel p:first-child { padding-top: 0; }
+}
+</style>
+
+{{/* Build the two destinations. A page that has no counterpart in the other
+     language falls back to that language's home page rather than vanishing. */}}
+{{- $cur := .Language.Lang -}}
+{{- $urls := dict "zh" "/" "en" "/en/" -}}
+{{- if .IsPage -}}
+  {{- $urls = merge $urls (dict $cur .RelPermalink) -}}
+  {{- range .Translations -}}
+    {{- $urls = merge $urls (dict .Language.Lang .RelPermalink) -}}
+  {{- end -}}
+{{- end -}}
+<script>
+(function () {
+  var urls = {{ $urls | jsonify | safeJS }}, cur = {{ $cur | jsonify | safeJS }};
+  var langs = [
+    { code: "zh", label: "中文" },
+    { code: "en", label: "English" }
+  ];
+  function build() {
+    if (document.querySelector(".we-lang")) return;
+    var box = document.createElement("div");
+    box.className = "we-lang";
+    box.setAttribute("role", "group");
+    box.setAttribute("aria-label", "Language");
+    var thumb = document.createElement("span");
+    thumb.className = "we-thumb";
+    box.appendChild(thumb);
+    langs.forEach(function (l) {
+      var a = document.createElement("a");
+      a.href = urls[l.code] || "/";
+      a.textContent = l.label;
+      a.dataset.lang = l.code;
+      if (l.code === cur) a.className = "is-on";
+      box.appendChild(a);
+    });
+    document.body.appendChild(box);
+
+    function place() {
+      var on = box.querySelector("a.is-on");
+      if (!on) return;
+      thumb.style.left = on.offsetLeft + "px";
+      thumb.style.width = on.offsetWidth + "px";
+    }
+    place();
+    window.addEventListener("resize", place);
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(place);
+
+    // A left or right swipe across the control switches language, so on a phone
+    // it behaves like the segmented controls people already know.
+    var x0 = null, moved = false;
+    box.addEventListener("touchstart", function (e) {
+      x0 = e.touches[0].clientX; moved = false;
+    }, { passive: true });
+    box.addEventListener("touchmove", function (e) {
+      if (x0 === null) return;
+      if (Math.abs(e.touches[0].clientX - x0) > 26) moved = true;
+    }, { passive: true });
+    box.addEventListener("touchend", function (e) {
+      if (x0 === null || !moved) { x0 = null; return; }
+      var dx = e.changedTouches[0].clientX - x0;
+      x0 = null;
+      var want = dx < 0 ? "en" : "zh";
+      if (want === cur) return;
+      var target = box.querySelector('a[data-lang="' + want + '"]');
+      if (target) window.location.href = target.href;
+    }, { passive: true });
+  }
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", build);
+  } else {
+    build();
+  }
+})();
+</script>
