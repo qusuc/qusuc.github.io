@@ -159,7 +159,13 @@ html[data-scheme="dark"] .we-lang { box-shadow: 0 6px 22px rgba(0,0,0,.45); }
 {{/* Build the two destinations. A page that has no counterpart in the other
      language falls back to that language's home page rather than vanishing. */}}
 {{- $cur := .Language.Lang -}}
-{{- $urls := dict "zh" "/" "en" "/en/" -}}
+{{/* Home pages come from the site config, never hardcoded: which language owns
+     the root path is a setting, and hardcoding it sends one language to a 404
+     the moment that setting changes. */}}
+{{- $urls := dict -}}
+{{- range .Sites -}}
+  {{- $urls = merge $urls (dict .Language.Lang .Home.RelPermalink) -}}
+{{- end -}}
 {{- if .IsPage -}}
   {{- $urls = merge $urls (dict $cur .RelPermalink) -}}
   {{- range .Translations -}}
